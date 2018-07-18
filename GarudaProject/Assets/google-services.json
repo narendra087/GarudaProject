@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "467843614764",
-    "firebase_url": "https://garuda-word.firebaseio.com",
-    "project_id": "garuda-word",
-    "storage_bucket": "garuda-word.appspot.com"
+    "project_number": "580403874571",
+    "firebase_url": "https://garudaproject-5105e.firebaseio.com",
+    "project_id": "garudaproject-5105e",
+    "storage_bucket": "garudaproject-5105e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:467843614764:android:6f8148dd8e716fce",
+        "mobilesdk_app_id": "1:580403874571:android:60bb95643898e37d",
         "android_client_info": {
-          "package_name": "com.farih.tes1"
+          "package_name": "com.Company.ProductName"
         }
       },
       "oauth_client": [
         {
-          "client_id": "467843614764-iko6jbgd1o21mhn5853o66hc8htqu2sg.apps.googleusercontent.com",
+          "client_id": "580403874571-q7fr4u479bg190j4jse23901gpdpf2ea.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBAWw7ShOyyV3T1WQWodpNnqMETi7lpOyo"
+          "current_key": "AIzaSyB8B_Pcvt3h4qJyTOFBHZCUIl_zKgSivv4"
         }
       ],
       "services": {
