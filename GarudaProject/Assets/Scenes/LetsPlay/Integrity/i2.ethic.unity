@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -244,7 +244,6 @@ GameObject:
   m_Component:
   - component: {fileID: 115037894}
   - component: {fileID: 115037893}
-  - component: {fileID: 115037892}
   - component: {fileID: 115037891}
   - component: {fileID: 115037895}
   m_Layer: 0
@@ -279,23 +278,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.564588, y: 2.21}
   m_EdgeRadius: 0
---- !u!114 &115037892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 115037890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65a8918ad37dfc646a951e1782f77a5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soal: ideas
-  lett1: {fileID: 1593245958}
-  lett2: {fileID: 1902734936}
-  lett3: {fileID: 994462283}
-  lett4: {fileID: 0}
-  lett5: {fileID: 0}
 --- !u!212 &115037893
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -365,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0325bea3655470d4e9675c0d459d3b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soal: ideas
+  soal: ethic
   hintGui: {fileID: 430077839}
   lett1: {fileID: 1593245958}
   lett2: {fileID: 1902734936}

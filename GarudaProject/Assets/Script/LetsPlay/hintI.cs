@@ -44,6 +44,14 @@ public RectTransform hintGui;
         {
             lett4.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(3, 1);
             hintCount = hintCount - 1;
+        } else if (hintCount == 0)
+        {
+        	doStuff();
         }
+    }
+
+    void doStuff()
+    {
+    	Debug.Log("Abis bos Hint nya!");
     }
 }
