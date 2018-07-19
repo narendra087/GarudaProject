@@ -21,7 +21,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class LoginHandler : MonoBehaviour {
-
+    
   protected Firebase.Auth.FirebaseAuth auth;
   private Firebase.Auth.FirebaseAuth otherAuth;
   protected Dictionary<string, Firebase.Auth.FirebaseUser> userByAuth =
@@ -29,9 +29,9 @@ public class LoginHandler : MonoBehaviour {
   private string logText = "";
     public Text emailText;
     public Text passwordText;
-  protected string email = "";
-  protected string password = "";
-  protected string displayName = "";
+    protected string email = "";
+    protected string password = "";
+    protected string displayName = "";
   private bool fetchingToken = false;
 
   const int kMaxLogSize = 16382;
@@ -50,7 +50,7 @@ public class LoginHandler : MonoBehaviour {
           "Could not resolve all Firebase dependencies: " + dependencyStatus);
       }
     });
-  }
+    }
 
 
   // Handle initialization of the necessary firebase modules:
@@ -176,6 +176,7 @@ public class LoginHandler : MonoBehaviour {
     else if (task.IsCompleted) {
       DebugLog(operation + " completed");
       complete = true;
+      SceneManager.LoadSceneAsync("Home Scene");
     }
     return complete;
   }
@@ -231,12 +232,12 @@ public class LoginHandler : MonoBehaviour {
     DebugLog(String.Format("Attempting to sign in as {0}...", email));
     auth.SignInWithEmailAndPasswordAsync(email, password)
       .ContinueWith(HandleSigninResult);
-  }
+    }
 
   void HandleSigninResult(Task<Firebase.Auth.FirebaseUser> authTask) {
     LogTaskCompletion(authTask, "Sign-in");
-        SceneManager.LoadSceneAsync("Home Scene");
-  }
+
+    }
 
   public void ReloadUser() {
     if (auth.CurrentUser == null) {
@@ -261,14 +262,14 @@ public class LoginHandler : MonoBehaviour {
     DebugLog("Fetching user token");
     fetchingToken = true;
     auth.CurrentUser.TokenAsync(false).ContinueWith(HandleGetUserToken);
-  }
+    }
 
   void HandleGetUserToken(Task<string> authTask) {
     fetchingToken = false;
     if (LogTaskCompletion(authTask, "User token fetch")) {
       DebugLog("Token = " + authTask.Result);
+        }       
     }
-  }
 
   void GetUserInfo() {
     if (auth.CurrentUser == null) {
