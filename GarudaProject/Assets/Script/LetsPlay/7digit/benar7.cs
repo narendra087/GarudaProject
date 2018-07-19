@@ -40,6 +40,7 @@ public class benar7 : MonoBehaviour
         }
         else
         {
+            gm7.currentWord = "";
             transparan.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
         }
     }
