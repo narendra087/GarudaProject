@@ -9,7 +9,7 @@ public class NextLevelSafety : MonoBehaviour {
 	public GameObject Next_Level;
 	public int max_level;
 	public string num_level;
-	public static int thelevel;
+	public static int thelevelSafety;
 	public int t;
 	public string sceneload;
 	public string nextLevelScene;
@@ -19,14 +19,14 @@ public class NextLevelSafety : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		gmScript.nilai = 0;
-		thelevel = PlayerPrefs.GetInt("thelevel", thelevel);
+		thelevelSafety = PlayerPrefs.GetInt("thelevelSafety", thelevelSafety);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		for (int i = 1; i < max_level; i++)
+		for (int m = 1; m < max_level; m++)
 		{
-			if(gmScript.nilai == scoreUnlock && LevelUnlockerSafety.level == i)
+			if(LevelUnlockerSafety.levelSafety == m)
 			{
 				Next_Level.SetActive(true);
 			}
@@ -35,8 +35,8 @@ public class NextLevelSafety : MonoBehaviour {
 
 	public static void the_level(int t)
 	{
-		thelevel = t;
-		PlayerPrefs.SetInt("thelevel", thelevel);
+		thelevelSafety = t;
+		PlayerPrefs.SetInt("thelevelSafety", thelevelSafety);
 	}
 
 	public void next()

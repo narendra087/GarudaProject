@@ -5,45 +5,45 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelUnlockerIntegrity : MonoBehaviour {
-	public static int level = 1;
+	public static int levelIntegrity = 1;
 	public int max_level;
 	public GameObject[] levelUnlocker;
 	public string loads;
 	// Use this for initialization
 	void Start () {
-		level = PlayerPrefs.GetInt("level", level);
+		levelIntegrity = PlayerPrefs.GetInt("levelIntegrity", levelIntegrity);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		for(int i = 1; i < max_level; i++)
+		for(int j = 1; j < max_level; j++)
 		{
-			if (i <= level)
+			if (j <= levelIntegrity)
 			{
-				levelUnlocker[i].SetActive(false);
-				Debug.Log("" + level);
+				levelUnlocker[j].SetActive(false);
+				Debug.Log("" + levelIntegrity);
 			}
 			else
 			{
-				levelUnlocker[i].SetActive(true);
-				Debug.Log("" + level);
+				levelUnlocker[j].SetActive(true);
+				Debug.Log("" + levelIntegrity);
 			}
 		}
 	}
 
 	public static void Next_Level()
 	{	
-		if(level == NextLevelIntegrity.thelevel)
+		if(levelIntegrity == NextLevelIntegrity.thelevelIntegrity)
 		{
-			level += 1;
-			PlayerPrefs.SetInt("level", level);
+			levelIntegrity += 1;
+			PlayerPrefs.SetInt("levelIntegrity", levelIntegrity);
 		}
 	}
 
 	public void Reset()
 	{
-		level = 1;
-		PlayerPrefs.SetInt("level", level);
+		levelIntegrity = 1;
+		PlayerPrefs.SetInt("levelIntegrity", levelIntegrity);
 	}
 
 	public void add_level()
