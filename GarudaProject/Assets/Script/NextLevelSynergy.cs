@@ -9,7 +9,7 @@ public class NextLevelSynergy : MonoBehaviour {
 	public GameObject Next_Level;
 	public int max_level;
 	public string num_level;
-	public static int thelevel;
+	public static int thelevelSynergy;
 	public int t;
 	public string sceneload;
 	public string nextLevelScene;
@@ -19,14 +19,14 @@ public class NextLevelSynergy : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		gmScript.nilai = 0;
-		thelevel = PlayerPrefs.GetInt("thelevel", thelevel);
+		thelevelSynergy = PlayerPrefs.GetInt("thelevelSynergy", thelevelSynergy);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		for (int i = 1; i < max_level; i++)
 		{
-			if(gmScript.nilai == scoreUnlock && LevelUnlockerSynergy.level == i)
+			if(LevelUnlockerSynergy.levelSynergy == i)
 			{
 				Next_Level.SetActive(true);
 			}
@@ -35,8 +35,8 @@ public class NextLevelSynergy : MonoBehaviour {
 
 	public static void the_level(int t)
 	{
-		thelevel = t;
-		PlayerPrefs.SetInt("thelevel", thelevel);
+		thelevelSynergy = t;
+		PlayerPrefs.SetInt("thelevelSynergy", thelevelSynergy);
 	}
 
 	public void next()

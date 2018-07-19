@@ -9,7 +9,7 @@ public class NextLevelAgility : MonoBehaviour {
 	public GameObject Next_Level;
 	public int max_level;
 	public string num_level;
-	public static int thelevel;
+	public static int thelevelAgility;
 	public int t;
 	public string sceneload;
 	public string nextLevelScene;
@@ -19,14 +19,14 @@ public class NextLevelAgility : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		gmScript.nilai = 0;
-		thelevel = PlayerPrefs.GetInt("thelevel", thelevel);
+		thelevelAgility = PlayerPrefs.GetInt("thelevelAgility", thelevelAgility);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		for (int i = 1; i < max_level; i++)
+		for (int l = 1; l < max_level; l++)
 		{
-			if(gmScript.nilai == scoreUnlock && LevelUnlockerAgility.level == i)
+			if(LevelUnlockerAgility.levelAgility == l)
 			{
 				Next_Level.SetActive(true);
 			}
@@ -35,8 +35,8 @@ public class NextLevelAgility : MonoBehaviour {
 
 	public static void the_level(int t)
 	{
-		thelevel = t;
-		PlayerPrefs.SetInt("thelevel", thelevel);
+		thelevelAgility = t;
+		PlayerPrefs.SetInt("thelevelAgility", thelevelAgility);
 	}
 
 	public void next()

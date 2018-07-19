@@ -44,6 +44,7 @@ public class benar9 : MonoBehaviour
         }
         else
         {
+            gm9.currentWord = "";
             transparan.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
         }
     }

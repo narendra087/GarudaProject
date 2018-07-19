@@ -5,45 +5,45 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelUnlockerSynergy : MonoBehaviour {
-	public static int level = 1;
+	public static int levelSynergy = 1;
 	public int max_level;
 	public GameObject[] levelUnlocker;
 	public string loads;
 	// Use this for initialization
 	void Start () {
-		level = PlayerPrefs.GetInt("level", level);
+		levelSynergy = PlayerPrefs.GetInt("levelSynergy", levelSynergy);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		for(int i = 1; i < max_level; i++)
 		{
-			if (i <= level)
+			if (i <= levelSynergy)
 			{
 				levelUnlocker[i].SetActive(false);
-				Debug.Log("" + level);
+				Debug.Log("" + levelSynergy);
 			}
 			else
 			{
 				levelUnlocker[i].SetActive(true);
-				Debug.Log("" + level);
+				Debug.Log("" + levelSynergy);
 			}
 		}
 	}
 
 	public static void Next_Level()
 	{	
-		if(level == NextLevelSynergy.thelevel)
+		if(levelSynergy == NextLevelSynergy.thelevelSynergy)
 		{
-			level += 1;
-			PlayerPrefs.SetInt("level", level);
+			levelSynergy += 1;
+			PlayerPrefs.SetInt("levelSynergy", levelSynergy);
 		}
 	}
 
 	public void Reset()
 	{
-		level = 1;
-		PlayerPrefs.SetInt("level", level);
+		levelSynergy = 1;
+		PlayerPrefs.SetInt("levelSynergy", levelSynergy);
 	}
 
 	public void add_level()

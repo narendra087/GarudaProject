@@ -5,45 +5,45 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelUnlockerSafety : MonoBehaviour {
-	public static int level = 1;
+	public static int levelSafety = 1;
 	public int max_level;
 	public GameObject[] levelUnlocker;
 	public string loads;
 	// Use this for initialization
 	void Start () {
-		level = PlayerPrefs.GetInt("level", level);
+		levelSafety = PlayerPrefs.GetInt("levelSafety", levelSafety);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		for(int i = 1; i < max_level; i++)
+		for(int m = 1; m < max_level; m++)
 		{
-			if (i <= level)
+			if (m <= levelSafety)
 			{
-				levelUnlocker[i].SetActive(false);
-				Debug.Log("" + level);
+				levelUnlocker[m].SetActive(false);
+				Debug.Log("" + levelSafety);
 			}
 			else
 			{
-				levelUnlocker[i].SetActive(true);
-				Debug.Log("" + level);
+				levelUnlocker[m].SetActive(true);
+				Debug.Log("" + levelSafety);
 			}
 		}
 	}
 
 	public static void Next_Level()
 	{	
-		if(level == NextLevelSafety.thelevel)
+		if(levelSafety == NextLevelSafety.thelevelSafety)
 		{
-			level += 1;
-			PlayerPrefs.SetInt("level", level);
+			levelSafety += 1;
+			PlayerPrefs.SetInt("levelSafety", levelSafety);
 		}
 	}
 
 	public void Reset()
 	{
-		level = 1;
-		PlayerPrefs.SetInt("level", level);
+		levelSafety = 1;
+		PlayerPrefs.SetInt("levelSafety", levelSafety);
 	}
 
 	public void add_level()
