@@ -9,14 +9,13 @@ public class scoreS : MonoBehaviour {
 
     public static int nilai = 0;
     public static int SavedScore;
-    public string soal = "";
+    public string soal;
 
 
     // Use this for initialization
     void Start () {
         LoadScore();
         SkorTersimpan.GetComponent<TextMesh>().text = SavedScore.ToString();
-        // Debug.Log("Start Count = " + count);
         score.GetComponent<TMPro.TextMeshProUGUI>().text = nilai.ToString();
 
     }

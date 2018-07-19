@@ -7,9 +7,9 @@ public class hintI : MonoBehaviour
 
     // Use this for initialization
     static int hintCount = 3;
-    public string soal = "";
+    public string soal;
 
-public RectTransform hintGui;
+    public RectTransform hintGui;
     public RectTransform lett1;
     public RectTransform lett2;
     public RectTransform lett3;
@@ -44,14 +44,6 @@ public RectTransform hintGui;
         {
             lett4.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(3, 1);
             hintCount = hintCount - 1;
-        } else if (hintCount == 0)
-        {
-        	doStuff();
         }
-    }
-
-    void doStuff()
-    {
-    	Debug.Log("Abis bos Hint nya!");
     }
 }

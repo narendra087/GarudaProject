@@ -17,7 +17,7 @@ public class gm4 : MonoBehaviour
     public RectTransform lett4;
 
 
-    public string soal = "";
+    public string soal;
 
     public static List<string> selectLetter = new List<string>() { "", "", "", "", "" };
     public static int letterNum = 0;
