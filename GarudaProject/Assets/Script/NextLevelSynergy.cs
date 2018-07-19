@@ -26,7 +26,7 @@ public class NextLevelSynergy : MonoBehaviour {
 	void Update () {
 		for (int i = 1; i < max_level; i++)
 		{
-			if(gmScript.nilai == scoreUnlock && LevelUnlockerSynergy.level == i)
+			if(gmScript.nilai >= scoreUnlock && LevelUnlockerSynergy.level == i)
 			{
 				Next_Level.SetActive(true);
 			}

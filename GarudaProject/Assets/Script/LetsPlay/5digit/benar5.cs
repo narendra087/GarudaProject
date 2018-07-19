@@ -54,7 +54,7 @@ public class benar5 : MonoBehaviour
     {
         popUp5.game = 0;
         gm5.count = 0;
-       gm5.currentWord = soal;
+        gm5.currentWord = soal;
         yield return new WaitForSeconds(1f);
         Anim.SetBool("Fade", true);
         yield return new WaitUntil(() => Img.color.a == 1);

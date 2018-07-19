@@ -1103,6 +1103,49 @@ RectTransform:
   m_AnchoredPosition: {x: 131.00015, y: 88.25806}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &251130786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 251130788}
+  - component: {fileID: 251130787}
+  m_Layer: 0
+  m_Name: GM (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &251130787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 251130786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09457b351eb2eec448c68f82481b45dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 871479379}
+  SkorTersimpan: {fileID: 1251577378}
+  soal: managerisk
+--- !u!4 &251130788
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 251130786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.33, y: 229.82, z: 78.5}
+  m_LocalScale: {x: 16.999481, y: 16.999481, z: 16.999481}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &272689028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5061,7 +5104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39e5314738c311c41915c09c2341726d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 20
   countdownText: {fileID: 1398530416}
   newscene: Synergy Level
 --- !u!114 &1398530416
@@ -6211,8 +6253,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellWord: {fileID: 1594892338}
   result: {fileID: 1594892338}
-  score: {fileID: 871479379}
-  SkorTersimpan: {fileID: 1251577378}
   lett1: {fileID: 360999365}
   lett2: {fileID: 631685025}
   lett3: {fileID: 187669211}
