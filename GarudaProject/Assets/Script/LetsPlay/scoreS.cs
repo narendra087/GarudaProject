@@ -15,7 +15,7 @@ public class scoreS : MonoBehaviour {
     // Use this for initialization
     void Start () {
         LoadScore();
-        SkorTersimpan.GetComponent<TextMesh>().text = SavedScore.ToString();
+        SkorTersimpan.GetComponent<TMPro.TextMeshProUGUI>().text = SavedScore.ToString();
         score.GetComponent<TMPro.TextMeshProUGUI>().text = nilai.ToString();
 
     }
