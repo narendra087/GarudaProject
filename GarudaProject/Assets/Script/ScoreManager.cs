@@ -30,6 +30,10 @@ public class ScoreManager : MonoBehaviour
 
         //SetScore("Dummy E", "Rank", PlayerScoreList.urutan);
         SetScore("Dummy E", "Score", 1004);
+        SetScore("Dummy F", "Score", 1004);
+        SetScore("Dummy G", "Score", 1004);
+        SetScore("Dummy H", "Score", 1004);
+
 
     }
 
