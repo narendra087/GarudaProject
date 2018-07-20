@@ -1154,7 +1154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.6841482, y: 0}
   m_AnchorMax: {x: 0.97774076, y: 0.056291666}
-  m_AnchoredPosition: {x: 0.7000122, y: -0.5}
+  m_AnchoredPosition: {x: 0.6999512, y: -0.5}
   m_SizeDelta: {x: 482, y: 152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &890922827
@@ -1483,6 +1483,7 @@ GameObject:
   - component: {fileID: 1576722742}
   - component: {fileID: 1576722741}
   - component: {fileID: 1576722740}
+  - component: {fileID: 1576722744}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1571,6 +1572,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1576722744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1576722739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb26179a68eeaa843a4dd888c666ca0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_level: 6
+  levelUnlocker:
+  - {fileID: 0}
+  - {fileID: 100494353}
+  - {fileID: 1224626364}
+  - {fileID: 1747387431}
+  - {fileID: 325294991}
+  - {fileID: 1288713161}
+  loads: Customer Level
 --- !u!1 &1661916200
 GameObject:
   m_ObjectHideFlags: 0
