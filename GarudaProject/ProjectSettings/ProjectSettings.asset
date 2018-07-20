@@ -150,8 +150,13 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+<<<<<<< HEAD
     Android: com.Test.Tesing
     Standalone: unity.DefaultCompany.MobileDemo
+=======
+    Android: com.Garuda.GarudaWord
+    Standalone: unity.garuda.garudaWord
+>>>>>>> 99d2648eb304e9d9490126d3a8224f4dc01096b9
     Tizen: com.Company.ProductName
     iOS: com.Company.ProductName
     tvOS: com.Company.ProductName

@@ -10,8 +10,6 @@ public class gm6 : MonoBehaviour
 
     public Transform spellWord;
     public Transform result;
-    public Transform score;
-    public Transform SkorTersimpan;
 
     public RectTransform lett1;
     public RectTransform lett2;
@@ -20,27 +18,19 @@ public class gm6 : MonoBehaviour
     public RectTransform lett5;
     public RectTransform lett6;
 
-    public string soal = "secure";
+    public string soal;
 
     public static List<string> selectLetter = new List<string>() { "", "", "", "", "", "" };
     public static int letterNum = 0;
-
-    // public RectTransform ParentPanel;
-    // private List<string> ImageName;
-    //  private int imageNum = 0;
+    
 
     public static int count = 0;
     public static int cek = 0;
     public static int timer = 0;
-    public static int nilai;
-    public static int SavedScore;
 
     // Use this for initialization
     void Start()
     {
-        LoadScore();
-        SkorTersimpan.GetComponent<TextMesh>().text = SavedScore.ToString();
-        // Debug.Log("Start Count = " + count);
     }
 
 
@@ -56,8 +46,6 @@ public class gm6 : MonoBehaviour
             if (currentWord == soal && count == soal.Length)
             {
                 cek = 1;
-                nilai += 10;
-                score.GetComponent<TMPro.TextMeshProUGUI>().text = nilai.ToString();
                 FindObjectOfType<benar6>().JawabanBenar();
                 // result.GetComponent<TextMesh>().text = "Benar";
                 lett1.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(0, 1);
@@ -70,27 +58,10 @@ public class gm6 : MonoBehaviour
             else if (currentWord != soal && count == soal.Length)
             {
                 FindObjectOfType<salah6>().JawabanSalah();
-                // result.GetComponent<TextMesh>().text = "Salah";
-
-                //Debug.Log("Anda Salah");
             }
 
         }
     }
-
-    public void SaveScore()
-    {
-        PlayerPrefs.SetInt("Score", nilai);
-    }
-
-    public void LoadScore()
-    {
-        SavedScore = PlayerPrefs.GetInt("Score", 0);
-    }
-
-    public void DeleteScore()
-    {
-        PlayerPrefs.DeleteKey("Score");
-    }
+    
 
 }

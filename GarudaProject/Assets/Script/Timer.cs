@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    public int timeLeft = 20;
+    public static int timeLeft;
     public Text countdownText;
     public string newscene;
-
     // Use this for initialization
     void Start()
     {
+        timeLeft = 20;
         StartCoroutine("LoseTime");
     }
 

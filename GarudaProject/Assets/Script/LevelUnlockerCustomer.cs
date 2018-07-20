@@ -5,45 +5,45 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelUnlockerCustomer : MonoBehaviour {
-	public static int level = 1;
+	public static int levelCustomer = 1;
 	public int max_level;
 	public GameObject[] levelUnlocker;
 	public string loads;
 	// Use this for initialization
 	void Start () {
-		level = PlayerPrefs.GetInt("level", level);
+		levelCustomer = PlayerPrefs.GetInt("levelCustomer", levelCustomer);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		for(int i = 1; i < max_level; i++)
+		for(int k = 1; k < max_level; k++)
 		{
-			if (i <= level)
+			if (k <= levelCustomer)
 			{
-				levelUnlocker[i].SetActive(false);
-				Debug.Log("" + level);
+				levelUnlocker[k].SetActive(false);
+				Debug.Log("" + levelCustomer);
 			}
 			else
 			{
-				levelUnlocker[i].SetActive(true);
-				Debug.Log("" + level);
+				levelUnlocker[k].SetActive(true);
+				Debug.Log("" + levelCustomer);
 			}
 		}
 	}
 
 	public static void Next_Level()
 	{	
-		if(level == NextLevelCustomer.thelevel)
+		if(levelCustomer == NextLevelCustomer.thelevelCustomer)
 		{
-			level += 1;
-			PlayerPrefs.SetInt("level", level);
+			levelCustomer += 1;
+			PlayerPrefs.SetInt("levelCustomer", levelCustomer);
 		}
 	}
 
 	public void Reset()
 	{
-		level = 1;
-		PlayerPrefs.SetInt("level", level);
+		levelCustomer = 1;
+		PlayerPrefs.SetInt("levelCustomer", levelCustomer);
 	}
 
 	public void add_level()

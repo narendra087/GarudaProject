@@ -20,7 +20,7 @@ public class popUp5 : MonoBehaviour
 
     void TaskOnClick()
     {
-        if (game == 1) ;
+        if (game == 1) 
         {
             //Debug.Log("tempe");
             gm5.cek = 1;

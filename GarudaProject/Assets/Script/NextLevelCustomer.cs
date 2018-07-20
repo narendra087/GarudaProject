@@ -9,7 +9,7 @@ public class NextLevelCustomer : MonoBehaviour {
 	public GameObject Next_Level;
 	public int max_level;
 	public string num_level;
-	public static int thelevel;
+	public static int thelevelCustomer;
 	public int t;
 	public string sceneload;
 	public string nextLevelScene;
@@ -19,14 +19,14 @@ public class NextLevelCustomer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		gmScript.nilai = 0;
-		thelevel = PlayerPrefs.GetInt("thelevel", thelevel);
+		thelevelCustomer = PlayerPrefs.GetInt("thelevelCustomer", thelevelCustomer);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		for (int i = 1; i < max_level; i++)
+		for (int k = 1; k < max_level; k++)
 		{
-			if(gmScript.nilai == scoreUnlock && LevelUnlockerCustomer.level == i)
+			if(LevelUnlockerCustomer.levelCustomer == k)
 			{
 				Next_Level.SetActive(true);
 			}
@@ -35,8 +35,8 @@ public class NextLevelCustomer : MonoBehaviour {
 
 	public static void the_level(int t)
 	{
-		thelevel = t;
-		PlayerPrefs.SetInt("thelevel", thelevel);
+		thelevelCustomer = t;
+		PlayerPrefs.SetInt("thelevelCustomer", thelevelCustomer);
 	}
 
 	public void next()

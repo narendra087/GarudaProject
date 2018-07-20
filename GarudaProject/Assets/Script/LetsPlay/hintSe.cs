@@ -7,7 +7,7 @@ public class hintSe : MonoBehaviour
 
     // Use this for initialization
     static int hintCount = 3;
-    public string soal = "";
+    public string soal;
 
 public RectTransform hintGui;
     public RectTransform lett1;

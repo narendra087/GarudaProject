@@ -5,45 +5,45 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelUnlockerAgility : MonoBehaviour {
-	public static int level = 1;
+	public static int levelAgility = 1;
 	public int max_level;
 	public GameObject[] levelUnlocker;
 	public string loads;
 	// Use this for initialization
 	void Start () {
-		level = PlayerPrefs.GetInt("level", level);
+		levelAgility = PlayerPrefs.GetInt("levelAgility", levelAgility);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		for(int i = 1; i < max_level; i++)
+		for(int l = 1; l < max_level; l++)
 		{
-			if (i <= level)
+			if (l <= levelAgility)
 			{
-				levelUnlocker[i].SetActive(false);
-				Debug.Log("" + level);
+				levelUnlocker[l].SetActive(false);
+				Debug.Log("" + levelAgility);
 			}
 			else
 			{
-				levelUnlocker[i].SetActive(true);
-				Debug.Log("" + level);
+				levelUnlocker[l].SetActive(true);
+				Debug.Log("" + levelAgility);
 			}
 		}
 	}
 
 	public static void Next_Level()
 	{	
-		if(level == NextLevelAgility.thelevel)
+		if(levelAgility == NextLevelAgility.thelevelAgility)
 		{
-			level += 1;
-			PlayerPrefs.SetInt("level", level);
+			levelAgility += 1;
+			PlayerPrefs.SetInt("levelAgility", levelAgility);
 		}
 	}
 
 	public void Reset()
 	{
-		level = 1;
-		PlayerPrefs.SetInt("level", level);
+		levelAgility = 1;
+		PlayerPrefs.SetInt("levelAgility", levelAgility);
 	}
 
 	public void add_level()
