@@ -10,24 +10,29 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
+        //SetScore("Dummy A", "Rank", PlayerScoreList.urutan);
         SetScore("Dummy A", "ID Pegawai", 12345);
         //SetScore("Imam", "Divisi", 121212);
         SetScore("Dummy A", "Score", 100);
 
+        //SetScore(gmScript.username, "Rank", PlayerScoreList.urutan);
         SetScore(gmScript.username, "ID Pegawai", gmScript.idPegawai);
         SetScore(gmScript.username, "Score", gmScript.SavedScore);
 
+        //SetScore("Dummy B", "Rank", PlayerScoreList.urutan);
         SetScore("Dummy B", "Score", 101);
+
+        //SetScore("Dummy C", "Rank", PlayerScoreList.urutan);
         SetScore("Dummy C", "Score", 102);
+
+        //SetScore("Dummy D", "Rank", PlayerScoreList.urutan);
         SetScore("Dummy D", "Score", 1003);
+
+        //SetScore("Dummy E", "Rank", PlayerScoreList.urutan);
         SetScore("Dummy E", "Score", 1004);
-        SetScore("Dummy F", "Score", 105);
-        SetScore("Dummy G", "Score", 16);
-        SetScore("Dummy H", "Score", 170);
-
-
-
-
+        SetScore("Dummy F", "Score", 1004);
+        SetScore("Dummy G", "Score", 1004);
+        SetScore("Dummy H", "Score", 1004);
 
 
     }

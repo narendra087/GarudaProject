@@ -23,88 +23,91 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Integrity Level.unity
     guid: 28335d4820b6ea94591c9def31a857e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Customer Level.unity
     guid: e6dbafc11dde49742bfb2fc24ab96fe1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Agility Level.unity
     guid: 4735515d9a9dcae4288c81c4b7528e42
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Safety Level.unity
     guid: 36fe42036d18879449d28adfda34c042
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Synergy/S1.trust.unity
     guid: 358bd06e0f80afc4d840fc84c3e35432
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Synergy/S2.partner.unity
     guid: 73bccb33224fc3b4ab99fb37d5b76a10
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Synergy/S3.teamwork.unity
     guid: cb2bfec113000cf4b9d67a248873585a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Synergy/S4.respect.unity
     guid: bd8f611e989bc77429d960d256db5654
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Synergy/S5.collaborate.unity
     guid: 90ff8fe0983a00442b6430612b30faf6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Integrity/i1.honesty.unity
     guid: 5cb34b5c4a36d644bb37640e6512a92b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Integrity/i2.ethic.unity
     guid: c09fcd5598e26a84daa7b9815c8be852
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Integrity/i3.commitment.unity
     guid: 1b364a15353bfbf4e8d0ebeaa7b681b3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Integrity/i4.trustworthy.unity
     guid: 35a4f23c7864e674aaaacf86814bf948
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Integrity/i5.responsible.unity
     guid: f09c96f07959bed4cb593ba6ed26976b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Customer Focus/C1.care.unity
     guid: 43e82a525b11d784694b098029698b28
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Customer Focus/C2.fasteasy.unity
     guid: a85eca54169f5bc42b04a26dd344b50f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Customer Focus/C3.polite.unity
     guid: 314c330e4289a4f4999d50e6913fc9cb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Customer Focus/C4.service.unity
     guid: cb4fcf89f041b6e47820034976353633
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Customer Focus/C5.comfort.unity
     guid: 423c9d115756c034793fe827394c6e3c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Agility/Action.unity
     guid: 9f1d91410dd63a441a768eeb3bb94108
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Agility/Adaptive.unity
     guid: 2610b5f215b959b44836848eb45a2a8c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Agility/Creative.unity
     guid: c529e5e976c588942bb1ab6c0c927fcc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Agility/Ideas.unity
     guid: 7370a9f5987072f4a8857ab1515a22d8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Agility/Tenacious.unity
     guid: 0fe22e70f8d04dc46989ee0523e2cf72
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Safety/sa1.compliance.unity
     guid: 0a8f9a20feeb33a44a9c351b61ff794e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Safety/sa2.secure.unity
     guid: 668096c4a655034459c99129ac624d0f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Safety/sa3.mitigate.unity
     guid: 156ea460431bd2c43af6d1d7015e9710
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Safety/sa4.analyze.unity
     guid: 7a856035380cf494081f9e61e8dd802f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LetsPlay/Safety/sa5.managerisk.unity
     guid: d42537895aef98c498da30c334aa4a85
+  - enabled: 0
+    path: Assets/Scenes/Leaderboard Scene.unity
+    guid: e2f3d4fd8fdc12545a4339807b9d707a
   m_configObjects: {}
