@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class hintS : MonoBehaviour
 {
 
@@ -18,7 +17,6 @@ public class hintS : MonoBehaviour
     public RectTransform lett4;
 
     public Button m_YourFirstButton;
-
 
     void Start()
     {
