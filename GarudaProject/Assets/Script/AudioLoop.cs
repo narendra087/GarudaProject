@@ -4,9 +4,22 @@ using UnityEngine;
 
 public class AudioLoop : MonoBehaviour {
 
-     void Awake()
+    static int masukOn = 1;
+
+   
+    void Update()
     {
-        DontDestroyOnLoad(transform.gameObject);
+        if (masukOn == 1)
+        {
+            DontDestroyOnLoad(transform.gameObject);
+            masukOn = masukOn - 1;
+            Debug.Log(masukOn);
+
+        }
+        else
+        {
+
+        }
     }
 
 }
