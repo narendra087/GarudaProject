@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class replay8 : MonoBehaviour
 {
+    public Button m_YourFirstButton;
 
     // Use this for initialization
     void Start()
     {
-
+        Button btn1 = m_YourFirstButton.GetComponent<Button>();
+        btn1.onClick.AddListener(TaskOnClick);
     }
 
     // Update is called once per frame
@@ -17,7 +19,7 @@ public class replay8 : MonoBehaviour
 
     }
 
-    private void OnMouseDown()
+    private void TaskOnClick()
     {
         popUp8.game = 1;
         gm8.currentWord = "";

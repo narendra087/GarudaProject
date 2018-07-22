@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class benar8 : MonoBehaviour
 {
-    public Transform transparan;
+    public RectTransform transparan;
     public string category;
     public string soal;
     public string cat;
@@ -43,14 +43,14 @@ public class benar8 : MonoBehaviour
         else
         {
             gm8.currentWord = "";
-            transparan.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+            transparan.GetComponent<Image>().color = new Color(1, 1, 1, 0);
         }
     }
 
     public void JawabanBenar()
     {
 
-        transparan.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
+        transparan.GetComponent<Image>().color = new Color(1, 1, 1, 1);
         Debug.Log("Next Level");
         StartCoroutine(reset());
     }
