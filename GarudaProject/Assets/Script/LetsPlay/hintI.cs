@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class hintI : MonoBehaviour
 {
@@ -15,10 +16,14 @@ public class hintI : MonoBehaviour
     public RectTransform lett3;
     public RectTransform lett4;
 
+    public Button m_YourFirstButton;
 
     void Start()
     {
-	lett1.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(0, 1);
+        Button btn1 = m_YourFirstButton.GetComponent<Button>();
+        btn1.onClick.AddListener(TaskOnClick);
+
+        lett1.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(0, 1);
 
     }
 
@@ -28,7 +33,7 @@ public class hintI : MonoBehaviour
     	hintGui.GetComponent<TMPro.TextMeshProUGUI>().text = hintCount.ToString();
     }
 
-    private void OnMouseDown()
+    private void TaskOnClick()
     {
         if (hintCount >= 3)
         {
