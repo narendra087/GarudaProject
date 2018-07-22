@@ -821,6 +821,7 @@ GameObject:
   - component: {fileID: 652498825}
   - component: {fileID: 652498824}
   - component: {fileID: 652498823}
+  - component: {fileID: 652498827}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -909,6 +910,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &652498827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 652498822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 555ef8ad289f6cb44a5bd83a9a7cae74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_level: 6
+  levelUnlocker:
+  - {fileID: 0}
+  - {fileID: 1880128211}
+  - {fileID: 1009472011}
+  - {fileID: 1290994905}
+  - {fileID: 1446369782}
+  - {fileID: 1937235989}
+  loads: Synergy Level
 --- !u!1 &861936980
 GameObject:
   m_ObjectHideFlags: 0
@@ -2197,7 +2218,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.027509358}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -15.794717}
+  m_AnchoredPosition: {x: 0, y: -15.794739}
   m_SizeDelta: {x: 0.000061035, y: -22.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1856822737
