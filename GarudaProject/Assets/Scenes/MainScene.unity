@@ -1223,6 +1223,10 @@ MonoBehaviour:
   result: {fileID: 41635589}
   score: {fileID: 1979167665}
   SkorTersimpan: {fileID: 1680076071}
+  lett1: {fileID: 0}
+  lett2: {fileID: 0}
+  lett3: {fileID: 0}
+  soal: ctt
 --- !u!4 &1266191994
 Transform:
   m_ObjectHideFlags: 0
@@ -1502,6 +1506,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transparan: {fileID: 1815765834}
+  category: 
+  soal: 
+  lett1: {fileID: 0}
+  lett2: {fileID: 0}
+  lett3: {fileID: 0}
+  Img: {fileID: 0}
+  Anim: {fileID: 0}
 --- !u!212 &1815765833
 SpriteRenderer:
   m_ObjectHideFlags: 0
