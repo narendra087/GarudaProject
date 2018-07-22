@@ -515,8 +515,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Category Scene
-  Anim: {fileID: 475464950}
-  Img: {fileID: 475464951}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!114 &348974552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,8 +644,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
-  Anim: {fileID: 475464950}
-  Img: {fileID: 475464951}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!81 &370952381
 AudioListener:
   m_ObjectHideFlags: 0
@@ -702,17 +702,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &475464948
+--- !u!1 &392449380
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 475464949}
-  - component: {fileID: 475464952}
-  - component: {fileID: 475464951}
-  - component: {fileID: 475464950}
+  - component: {fileID: 392449383}
+  - component: {fileID: 392449382}
+  - component: {fileID: 392449381}
+  - component: {fileID: 392449384}
   m_Layer: 5
   m_Name: Fade
   m_TagString: Untagged
@@ -720,48 +720,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &475464949
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 475464948}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.6666667, y: 2.6666667, z: 2.6666667}
-  m_Children: []
-  m_Father: {fileID: 1587022904}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -675, y: -1200}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &475464950
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 475464948}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6278f057cbc8fb345bd5a0bea8f91d5c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &475464951
+--- !u!114 &392449381
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 475464948}
+  m_GameObject: {fileID: 392449380}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
@@ -775,7 +739,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 8093512c82f8f60408d65475063fd565, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -783,12 +747,48 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!222 &475464952
+--- !u!222 &392449382
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 475464948}
+  m_GameObject: {fileID: 392449380}
+--- !u!224 &392449383
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392449380}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -186.77573}
+  m_LocalScale: {x: 1, y: 1, z: 0.72095996}
+  m_Children: []
+  m_Father: {fileID: 1587022904}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &392449384
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392449380}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6278f057cbc8fb345bd5a0bea8f91d5c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &606816654
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +827,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.027509358}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -15.794679}
+  m_AnchoredPosition: {x: 0, y: -15.794729}
   m_SizeDelta: {x: 0.000061035, y: -22.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606816656
@@ -1057,8 +1057,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: gameplay layout fix
-  Anim: {fileID: 0}
-  Img: {fileID: 0}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!114 &912026648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1174,8 +1174,8 @@ MonoBehaviour:
   t: 1
   sceneload: 
   nextLevelScene: A1.Ideas
-  Anim: {fileID: 475464950}
-  Img: {fileID: 475464951}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!1 &965389787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,8 +1227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
-  Anim: {fileID: 0}
-  Img: {fileID: 0}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!114 &965389790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1344,8 +1344,8 @@ MonoBehaviour:
   t: 3
   sceneload: 
   nextLevelScene: A3.Creative
-  Anim: {fileID: 475464950}
-  Img: {fileID: 475464951}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!1 &986450767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,8 +1864,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
-  Anim: {fileID: 0}
-  Img: {fileID: 0}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!114 &1410378811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1981,8 +1981,8 @@ MonoBehaviour:
   t: 5
   sceneload: 
   nextLevelScene: A5.Tenacious
-  Anim: {fileID: 475464950}
-  Img: {fileID: 475464951}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!1 &1452020426
 GameObject:
   m_ObjectHideFlags: 0
@@ -2248,7 +2248,7 @@ RectTransform:
   - {fileID: 855611845}
   - {fileID: 3394906}
   - {fileID: 1804429848}
-  - {fileID: 475464949}
+  - {fileID: 392449383}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2328,8 +2328,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
-  Anim: {fileID: 0}
-  Img: {fileID: 0}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!114 &1736207793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2445,8 +2445,8 @@ MonoBehaviour:
   t: 2
   sceneload: 
   nextLevelScene: A2.Action
-  Anim: {fileID: 475464950}
-  Img: {fileID: 475464951}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!1 &1783996923
 GameObject:
   m_ObjectHideFlags: 0
@@ -2695,8 +2695,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
-  Anim: {fileID: 0}
-  Img: {fileID: 0}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
 --- !u!114 &2143393576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2812,5 +2812,5 @@ MonoBehaviour:
   t: 4
   sceneload: 
   nextLevelScene: A4.Adaptive
-  Anim: {fileID: 475464950}
-  Img: {fileID: 475464951}
+  Anim: {fileID: 392449384}
+  Img: {fileID: 392449381}
