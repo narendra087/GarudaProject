@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class replay7 : MonoBehaviour
 {
-
+    public Button m_YourFirstButton;
     // Use this for initialization
     void Start()
     {

@@ -20,7 +20,7 @@ public class replay10 : MonoBehaviour
 
     }
 
-    private void OnMouseDown()
+    private void TaskOnClick()
     {
         popUp10.game = 1;
         gm10.currentWord = "";
