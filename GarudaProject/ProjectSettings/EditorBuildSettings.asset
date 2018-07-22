@@ -17,19 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Category Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Synergy Level.unity
     guid: 7047f3a2f01f8094f909ff777e270ea6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Integrity Level.unity
     guid: 28335d4820b6ea94591c9def31a857e3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Customer Level.unity
     guid: e6dbafc11dde49742bfb2fc24ab96fe1
   - enabled: 1
     path: Assets/Scenes/Agility Level.unity
     guid: 4735515d9a9dcae4288c81c4b7528e42
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Safety Level.unity
     guid: 36fe42036d18879449d28adfda34c042
   - enabled: 0
