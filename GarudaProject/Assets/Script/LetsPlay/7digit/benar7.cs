@@ -33,8 +33,8 @@ public class benar7 : MonoBehaviour
             lett3.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(2, 1);
             lett4.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(3, 1);
             lett5.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(4, 1);
-            lett6.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(4, 1);
-            lett7.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(4, 1);
+            lett6.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(5, 1);
+            lett7.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(6, 1);
             popUp7.game = 0;
             gm7.currentWord = "";
         }

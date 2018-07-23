@@ -11,13 +11,16 @@ public class scoreS : MonoBehaviour {
     public static int SavedScore;
     public string soal;
 
+   // int scoreAttemp = 1;
+   // public static int nilaiLaju = 0;
+
+  //  public static List<int> savedNilai = new List<int>() { 0, 0, 0, 0, 0 };
 
     // Use this for initialization
     void Start () {
         LoadScore();
         SkorTersimpan.GetComponent<TMPro.TextMeshProUGUI>().text = SavedScore.ToString();
         score.GetComponent<TMPro.TextMeshProUGUI>().text = nilai.ToString();
-
     }
 
     // Update is called once per frame
@@ -30,7 +33,10 @@ public class scoreS : MonoBehaviour {
             {
                 Debug.Log("test2");
                 nilai = nilai + 100 + Timer.timeLeft *2;
-                //nilai = 0;
+
+               //nilaiLaju += 1;
+               // savedNilai[nilaiLaju] = nilai;
+
                 score.GetComponent<TMPro.TextMeshProUGUI>().text = nilai.ToString();
                 
             }
