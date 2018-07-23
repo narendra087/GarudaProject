@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: GarudaIndonesia
+  companyName: Garuda
   productName: Garuda Word
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -261,7 +261,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: e2fe947de0394744ca748e1bbec251f7, type: 3}
+      m_Icon: {fileID: 2800000, guid: 3ed5e81498393d048a9f1d6a2e34b5e9, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
