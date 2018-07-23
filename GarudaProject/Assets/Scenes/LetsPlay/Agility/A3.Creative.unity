@@ -2231,7 +2231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownText: {fileID: 483774552}
-  newscene: Synergy Level
+  newscene: Agility Level
 --- !u!114 &483774554
 MonoBehaviour:
   m_ObjectHideFlags: 0

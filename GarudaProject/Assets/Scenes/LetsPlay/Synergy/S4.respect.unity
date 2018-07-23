@@ -2307,6 +2307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 776200374}
   - component: {fileID: 776200373}
+  - component: {fileID: 776200375}
   m_Layer: 0
   m_Name: Score Manager
   m_TagString: Untagged
@@ -2341,6 +2342,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &776200375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 776200372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fece69e29ab43f6478998fc81a8f8d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &851324084
 GameObject:
   m_ObjectHideFlags: 0
