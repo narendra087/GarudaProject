@@ -17,7 +17,7 @@ public class stopThatScoreC2 : MonoBehaviour {
 
             if (scoreAttemp == true)
             {
-            if (Timer.timeLeft > 0)
+            if (Timer.timeLeft >= 0)
             {
                 GetComponent<scoreS>().ScoreOn();
                 if (scoreS.sudah == true)

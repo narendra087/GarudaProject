@@ -12,7 +12,7 @@ public class Timer : MonoBehaviour
 
     void Start()
     {
-        timeLeft = 10;
+        timeLeft = 6;
         StartCoroutine("LoseTime");
     }
 
