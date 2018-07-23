@@ -6,7 +6,7 @@ public class AudioLoop : MonoBehaviour {
 
     static int masukOn = 1;
 
-   
+
     void Update()
     {
         if (masukOn == 1)
