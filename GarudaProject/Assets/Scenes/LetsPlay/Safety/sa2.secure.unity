@@ -807,7 +807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a71882af81603cf46afd6f90f1baf0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soal: mitigate
+  soal: secure
   hintGui: {fileID: 1584633949}
   lett1: {fileID: 659668008}
   lett2: {fileID: 1288243569}
