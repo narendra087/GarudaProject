@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stopThatScore : MonoBehaviour {
+public class stopThatScoreA2 : MonoBehaviour {
 
     public Transform scoreCoba;
 

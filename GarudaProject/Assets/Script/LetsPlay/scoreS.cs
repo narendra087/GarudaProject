@@ -12,7 +12,7 @@ public class scoreS : MonoBehaviour {
     public static int SavedScore;
     public string soal;
 
-    public static bool sudah = false;
+    public static bool sudah;
 
     static int scoreAttemp = 1;
 
@@ -22,7 +22,7 @@ public class scoreS : MonoBehaviour {
 
     // Use this for initialization
     public void start () {
-        
+        sudah = false;
         LoadScore();
         SkorTersimpan.GetComponent<TMPro.TextMeshProUGUI>().text = SavedScore.ToString();
         score.GetComponent<TMPro.TextMeshProUGUI>().text = nilai.ToString();
