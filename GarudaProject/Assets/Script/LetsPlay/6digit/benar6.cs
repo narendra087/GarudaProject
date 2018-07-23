@@ -61,7 +61,6 @@ public class benar6 : MonoBehaviour
         yield return new WaitForSeconds(1f);
         Anim.SetBool("Fade", true);
         yield return new WaitUntil(() => Img.color.a == 1);
-        SceneManager.LoadScene(category);
         if(cat == "Synergy")
         {
             FindObjectOfType<NextLevelSynergy>().next();

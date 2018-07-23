@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class replay4 : MonoBehaviour
 {
+    public Button m_YourFirstButton;
 
-    // Use this for initialization
     void Start()
     {
+        Button btn1 = m_YourFirstButton.GetComponent<Button>();
+        btn1.onClick.AddListener(TaskOnClick);
+
 
     }
 
@@ -17,7 +21,7 @@ public class replay4 : MonoBehaviour
 
     }
 
-    private void OnMouseDown()
+    private void TaskOnClick()
     {
         popUp4.game = 1;
         gm4.currentWord = "";
