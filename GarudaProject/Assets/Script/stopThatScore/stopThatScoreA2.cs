@@ -21,15 +21,16 @@ public class stopThatScoreA2 : MonoBehaviour
 
         if (scoreAttemp == true)
         {
-
-            GetComponent<scoreS>().ScoreOn();
-
-            if (scoreS.sudah == true)
+            if (Timer.timeLeft >= 0)
             {
-                scoreAttemp = false;
+                GetComponent<scoreS>().ScoreOn();
+
+                if (scoreS.sudah == true)
+                {
+                    scoreAttemp = false;
+                }
+
             }
-
-
         }
 
     }

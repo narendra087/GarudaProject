@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stopThatScoreA5 : MonoBehaviour {
+public class stopThatScoreS5 : MonoBehaviour {
 
 
     private static bool scoreAttemp = true;
