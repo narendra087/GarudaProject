@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -431,7 +431,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 95810791}
-  - component: {fileID: 95810795}
+  - component: {fileID: 95810796}
   - component: {fileID: 95810794}
   - component: {fileID: 95810793}
   - component: {fileID: 95810792}
@@ -534,7 +534,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 95810790}
---- !u!114 &95810795
+--- !u!114 &95810796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -542,7 +542,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 95810790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bd75b34cd1dbed4f97b61ff37fa0ad6, type: 3}
+  m_Script: {fileID: 11500000, guid: f08a9e5e6915f4a4386c0ad5bf30f69a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soal: action
@@ -1917,7 +1917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.019989014, y: -748.94995}
+  m_AnchoredPosition: {x: 0.020019531, y: -748.94995}
   m_SizeDelta: {x: 70.87988, y: 1561.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &385858907
