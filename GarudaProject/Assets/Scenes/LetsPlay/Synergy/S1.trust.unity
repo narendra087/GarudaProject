@@ -647,7 +647,7 @@ MonoBehaviour:
   lett4: {fileID: 1010356894}
   lett5: {fileID: 1643390380}
   Img: {fileID: 1925800195}
-  Anim: {fileID: 0}
+  Anim: {fileID: 1925800198}
 --- !u!114 &175735357
 MonoBehaviour:
   m_ObjectHideFlags: 0

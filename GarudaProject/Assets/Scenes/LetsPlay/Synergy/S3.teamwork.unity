@@ -3624,9 +3624,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transparan: {fileID: 1135016663}
-  category: Agility Level
-  soal: adaptive
-  cat: Agility
+  category: Synergy Level
+  soal: teamwork
+  cat: Synergy
   lett1: {fileID: 1469022298}
   lett2: {fileID: 2126558302}
   lett3: {fileID: 392083714}
