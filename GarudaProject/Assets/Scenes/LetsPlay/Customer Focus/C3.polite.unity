@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4654,7 +4654,7 @@ GameObject:
   - component: {fileID: 1459731393}
   - component: {fileID: 1459731396}
   - component: {fileID: 1459731395}
-  - component: {fileID: 1459731394}
+  - component: {fileID: 1459731397}
   m_Layer: 5
   m_Name: Next_Level
   m_TagString: Untagged
@@ -4682,26 +4682,6 @@ RectTransform:
   m_AnchoredPosition: {x: 350, y: -675}
   m_SizeDelta: {x: 380.4, y: 374.2}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1459731394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1459731392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 193566f4163a7f3458038e7dfab75c21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreUnlock: 10
-  Next_Level: {fileID: 1459731392}
-  max_level: 6
-  num_level: 
-  t: 1
-  sceneload: Customer Level
-  nextLevelScene: num_level
-  Anim: {fileID: 562868654}
-  Img: {fileID: 562868656}
 --- !u!114 &1459731395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4735,6 +4715,26 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1459731392}
+--- !u!114 &1459731397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1459731392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15654485e282ebc4e81110b70e4c0204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreUnlock: 10
+  Next_Level: {fileID: 1459731392}
+  max_level: 6
+  num_level: 
+  t: 1
+  sceneload: Customer Level
+  nextLevelScene: num_level
+  Anim: {fileID: 0}
+  Img: {fileID: 0}
 --- !u!1 &1467077311
 GameObject:
   m_ObjectHideFlags: 0

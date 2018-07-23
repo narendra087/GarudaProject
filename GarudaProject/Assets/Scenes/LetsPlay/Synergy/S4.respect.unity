@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 337801771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 193566f4163a7f3458038e7dfab75c21, type: 3}
+  m_Script: {fileID: 11500000, guid: 7fdeed44790a6fa42976feabf0acd1fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreUnlock: 10
@@ -1220,10 +1220,10 @@ MonoBehaviour:
   max_level: 6
   num_level: 
   t: 1
-  sceneload: Agility Level
+  sceneload: Synergy Level
   nextLevelScene: num_level
-  Anim: {fileID: 1897099457}
-  Img: {fileID: 1897099460}
+  Anim: {fileID: 0}
+  Img: {fileID: 0}
 --- !u!114 &337801774
 MonoBehaviour:
   m_ObjectHideFlags: 0

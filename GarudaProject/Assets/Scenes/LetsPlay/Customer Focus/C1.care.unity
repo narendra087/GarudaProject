@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3766,7 +3766,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1147243693}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 193566f4163a7f3458038e7dfab75c21, type: 3}
+  m_Script: {fileID: 11500000, guid: 15654485e282ebc4e81110b70e4c0204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreUnlock: 10
@@ -3776,8 +3776,8 @@ MonoBehaviour:
   t: 1
   sceneload: Customer Level
   nextLevelScene: num_level
-  Anim: {fileID: 999186349}
-  Img: {fileID: 999186350}
+  Anim: {fileID: 0}
+  Img: {fileID: 0}
 --- !u!114 &1147243696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5717,13 +5717,13 @@ MonoBehaviour:
   transparan: {fileID: 1730570217}
   category: Customer Level
   soal: care
+  cat: Customer Focus
   lett1: {fileID: 1567363388}
   lett2: {fileID: 736199181}
   lett3: {fileID: 1108656786}
   lett4: {fileID: 1748642047}
   Img: {fileID: 999186350}
   Anim: {fileID: 999186349}
-  cat: Customer Focus
 --- !u!114 &1730570220
 MonoBehaviour:
   m_ObjectHideFlags: 0

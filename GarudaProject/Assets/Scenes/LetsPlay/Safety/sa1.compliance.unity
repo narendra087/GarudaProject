@@ -3063,7 +3063,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 740543254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 193566f4163a7f3458038e7dfab75c21, type: 3}
+  m_Script: {fileID: 11500000, guid: e5908864b20288840b4757897ebc4747, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreUnlock: 10
@@ -3071,10 +3071,10 @@ MonoBehaviour:
   max_level: 6
   num_level: 
   t: 1
-  sceneload: Customer Level
-  nextLevelScene: num_level
-  Anim: {fileID: 1448934786}
-  Img: {fileID: 1448934789}
+  sceneload: Safety Level
+  nextLevelScene: num_scene
+  Anim: {fileID: 0}
+  Img: {fileID: 0}
 --- !u!114 &740543257
 MonoBehaviour:
   m_ObjectHideFlags: 0
