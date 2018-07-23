@@ -6,7 +6,8 @@ public class stopThatScore : MonoBehaviour {
 
     public Transform scoreCoba;
 
-    static int scoreAttemp = 1;
+    private static bool scoreAttemp = true;
+   // public static bool scoreAttempChange;
    
     // public static int nilaiGo = 0;
 
@@ -14,31 +15,57 @@ public class stopThatScore : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        Debug.Log(scoreS.nilai);
         FindObjectOfType<scoreS>().start();
-        if (scoreAttemp == 1)
-        {
-          //FindObjectOfType<scoreS>().update();
-        }
+        //startScore();
 
-
+        //if (scoreAttemp == 1)
+        //{
+        //  FindObjectOfType<scoreS>().ScoreOn();
+        // scoreAttemp = scoreAttemp - 1;
+        //}
         scoreCoba.GetComponent<TMPro.TextMeshProUGUI>().text = scoreAttemp.ToString();
 
 
     }
 
     // Update is called once per frame
-    void Update () {
-		if (scoreAttemp == 1)
-        {
-            //FindObjectOfType<scoreS>().update();
-            // nilaiGo += 1;
-            scoreCoba.GetComponent<TMPro.TextMeshProUGUI>().text = scoreAttemp.ToString();
-            scoreAttemp = 0;
-            //savedNilai[nilaiGo] = scoreS.nilai;
+    public void Update () {
+       // for (scoreAttemp = 1; scoreAttemp >= 1; scoreAttemp--)
+        //{
+            if (scoreAttemp == true)
+            {
+                //FindObjectOfType<scoreS>().ScoreOn();
+                //scoreAttemp = scoreAttemp - 1;
+                //     Debug.Log("2");
+               // FindObjectOfType<scoreS>().ScoreOn();
+            GetComponent<scoreS>().ScoreOn();
+            if (scoreS.sudah == true)
+            {
+                scoreAttemp = false;
+            }
+            //if(scoreAttempChange == true)
+            //{
+            //    scoreAttemp = false;
+            //}
 
-            Debug.Log(scoreS.nilai);
-        }
+        } //else
+          //{
+          //    FindObjectOfType<scoreS>().ScoreOff();
+          //}
 
-	}
+
+        //if (scoreAttemp == 1)
+        //{
+        // Debug.Log("3");
+        // scoreAttemp = scoreAttemp - 1;
+
+        //FindObjectOfType<scoreS>().update();
+        // nilaiGo += 1;
+        scoreCoba.GetComponent<TMPro.TextMeshProUGUI>().text = scoreAttemp.ToString();
+       // kurang();
+        //savedNilai[nilaiGo] = scoreS.nilai;
+
+        //Debug.Log(scoreS.nilai);
+    }
+
 }
