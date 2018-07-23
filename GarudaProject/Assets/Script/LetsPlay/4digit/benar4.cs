@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class benar4 : MonoBehaviour
 {
-    public Transform transparan;
+    public RectTransform transparan;
     public string category;
     public string soal;
+    public string cat;
 
     public RectTransform lett1;
     public RectTransform lett2;
@@ -16,7 +17,7 @@ public class benar4 : MonoBehaviour
     public RectTransform lett4;
     public Image Img;
     public Animator Anim;
-    public string cat;
+
 
     //public static List<string> selectSoal = new List<string>() { "c", "o", "l", "", "", ""};
 
@@ -35,14 +36,14 @@ public class benar4 : MonoBehaviour
         else
         {
             gm4.currentWord = "";
-            transparan.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+            transparan.GetComponent<Image>().color = new Color(1, 1, 1, 0);
         }
     }
 
     public void JawabanBenar()
     {
 
-        transparan.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
+        transparan.GetComponent<Image>().color = new Color(1, 1, 1, 1);
         //Debug.Log("Benar");
         
         Debug.Log("Next Level");
@@ -57,7 +58,7 @@ public class benar4 : MonoBehaviour
         yield return new WaitForSeconds(1f);
         Anim.SetBool("Fade", true);
         yield return new WaitUntil(() => Img.color.a == 1);
-        if(cat == "Synergy")
+        if (cat == "Synergy")
         {
             FindObjectOfType<NextLevelSynergy>().next();
         } else if (cat == "Integrity")
