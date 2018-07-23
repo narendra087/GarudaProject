@@ -80,8 +80,8 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/LetsPlay/Customer Focus/C2.fasteasy.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/a85eca54169f5bc42b04a26dd344b50f
     guid: a85eca54169f5bc42b04a26dd344b50f
   - enabled: 1
     path: Assets/Scenes/LetsPlay/Customer Focus/C3.polite.unity
@@ -125,8 +125,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LetsPlay/Safety/sa1.compliance.unity
     guid: 0a8f9a20feeb33a44a9c351b61ff794e
-  - enabled: 1
-    path: Assets/Scenes/LetsPlay/Safety/sa2.secure.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/668096c4a655034459c99129ac624d0f
     guid: 668096c4a655034459c99129ac624d0f
   - enabled: 1
     path: Assets/Scenes/LetsPlay/Synergy/S3.teamwork.unity
@@ -134,8 +134,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LetsPlay/Synergy/S5.collaborate.unity
     guid: b0662ea59a7496642995a97ee8c64f94
-  - enabled: 1
-    path: Assets/Scenes/LetsPlay/Safety/sa3.mitigate.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/156ea460431bd2c43af6d1d7015e9710
     guid: 156ea460431bd2c43af6d1d7015e9710
   - enabled: 0
     path: 
