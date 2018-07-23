@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class PlayerScoreList : MonoBehaviour
 {
+    public RectTransform Scroll;
+    //public Vector2 sizeDelta;
 
     public GameObject playerScoreEntryPrefab1;
     public GameObject playerScoreEntryPrefab2;
@@ -21,11 +23,16 @@ public class PlayerScoreList : MonoBehaviour
     {
         scoreManager = GameObject.FindObjectOfType<ScoreManager>();
         lastChangeCounter = scoreManager.GetChangeCounter();
+
+        
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         if (scoreManager == null)
         {
             Debug.LogError("Error");
@@ -47,9 +54,12 @@ public class PlayerScoreList : MonoBehaviour
         }
 
         string[] names = scoreManager.GetPlayerNames("Score");
+        
 
         for (i = 0; i <= names.Length; i++)
         {
+            Scroll.offsetMin = new Vector2(Scroll.offsetMin.x, (i*-50));
+            
             if (i < names.Length)
             {
                 if (i == 0)

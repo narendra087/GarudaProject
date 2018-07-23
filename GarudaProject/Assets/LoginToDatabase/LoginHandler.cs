@@ -160,7 +160,8 @@ public class LoginHandler : MonoBehaviour {
     else if (task.IsFaulted)
     {
         DebugLog(operation + " encounted an error.");
-        foreach (Exception exception in task.Exception.Flatten().InnerExceptions) {
+        
+            foreach (Exception exception in task.Exception.Flatten().InnerExceptions) {
 
                 string authErrorCode = "";
                 Firebase.FirebaseException firebaseEx = exception as Firebase.FirebaseException;
@@ -169,10 +170,12 @@ public class LoginHandler : MonoBehaviour {
 
                 authErrorCode = String.Format("AuthError.{0}: ",
                 ((Firebase.Auth.AuthError)firebaseEx.ErrorCode).ToString());
-            }
+                    
+                }
         DebugLog(authErrorCode + exception.ToString());
+            }
+            
         }
-    }
     else if (task.IsCompleted) {
       DebugLog(operation + " completed");
       complete = true;

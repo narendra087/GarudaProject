@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Agility Level.unity
@@ -11,4 +12,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LetsPlay/Agility/A1.Ideas.unity
     guid: 5922097de804eed48bc7b1fcb3d24b2d
+=======
+  m_Scenes: []
+>>>>>>> 5125db99bb3f1961ed55de608efae3b4e68df06c
   m_configObjects: {}

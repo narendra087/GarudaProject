@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4232,15 +4232,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1146785129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70d6415044a9aff449cc5de45b2d5d37, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bd75b34cd1dbed4f97b61ff37fa0ad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soal: teamwork
+  soal: fasteasy
   hintGui: {fileID: 1549017569}
-  lett1: {fileID: 0}
-  lett2: {fileID: 0}
-  lett3: {fileID: 0}
-  lett4: {fileID: 0}
+  lett1: {fileID: 698073467}
+  lett2: {fileID: 7968109}
+  lett3: {fileID: 287267967}
+  lett4: {fileID: 1348923900}
   m_YourFirstButton: {fileID: 1146785132}
 --- !u!114 &1146785132
 MonoBehaviour:
