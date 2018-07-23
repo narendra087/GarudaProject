@@ -7414,7 +7414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownText: {fileID: 2086747137}
-  newscene: Synergy Level
+  newscene: Customer Level
 --- !u!114 &2086747139
 MonoBehaviour:
   m_ObjectHideFlags: 0

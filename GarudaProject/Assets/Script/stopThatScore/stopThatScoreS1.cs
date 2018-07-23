@@ -2,21 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stopThatScoreA5 : MonoBehaviour {
+public class stopThatScoreS1 : MonoBehaviour
+{
 
 
     private static bool scoreAttemp = true;
 
-    void Start () {
+    void Start()
+    {
 
         FindObjectOfType<scoreS>().start();
 
     }
 
-    public void Update () {
+    public void Update()
+    {
 
-            if (scoreAttemp == true)
-            {
+        if (scoreAttemp == true)
+        {
             if (Timer.timeLeft >= 0)
             {
                 GetComponent<scoreS>().ScoreOn();
@@ -24,9 +27,9 @@ public class stopThatScoreA5 : MonoBehaviour {
                 {
                     scoreAttemp = false;
                 }
-            }
 
-        } 
+            }
+        }
 
     }
 
