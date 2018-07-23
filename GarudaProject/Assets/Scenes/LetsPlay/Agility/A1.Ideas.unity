@@ -359,7 +359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ecdda1452b3c824da92eb9883bcb086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreCoba: {fileID: 0}
 --- !u!1 &127433082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5831,7 +5830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownText: {fileID: 1854145066}
-  newscene: Synergy Level
+  newscene: Agility Level
 --- !u!114 &1854145068
 MonoBehaviour:
   m_ObjectHideFlags: 0
