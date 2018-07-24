@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.UIElements;
 
-public class gm10 : MonoBehaviour
+public class gm14 : MonoBehaviour
 {
     public static string currentWord;
     // public static string soal;
@@ -21,6 +21,10 @@ public class gm10 : MonoBehaviour
     public RectTransform lett8;
     public RectTransform lett9;
     public RectTransform lett10;
+    public RectTransform lett11;
+    public RectTransform lett12;
+    public RectTransform lett13;
+    public RectTransform lett14;
 
     public string soal;
 
@@ -42,14 +46,14 @@ public class gm10 : MonoBehaviour
     void Update()
     {
 
-        if (popUp10.game == 1)
+        if (popUp14.game == 1)
         {
 
             spellWord.GetComponent<TMPro.TextMeshProUGUI>().text = currentWord;
             if (currentWord == soal && count == soal.Length)
             {
                 cek = 1;
-                FindObjectOfType<benar10>().JawabanBenar();
+                FindObjectOfType<benar14>().JawabanBenar();
                 // result.GetComponent<TextMesh>().text = "Benar";
                 lett1.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(0, 1);
                 lett2.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(1, 1);
@@ -61,10 +65,14 @@ public class gm10 : MonoBehaviour
                 lett8.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(7, 1);
                 lett9.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(8, 1);
                 lett10.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(9, 1);
+                lett11.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(10, 1);
+                lett12.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(11, 1);
+                lett13.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(12, 1);
+                lett14.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(13, 1);
             }
             else if (currentWord != soal && count == soal.Length)
             {
-                FindObjectOfType<salah10>().JawabanSalah();
+                FindObjectOfType<salah14>().JawabanSalah();
                 // result.GetComponent<TextMesh>().text = "Salah";
 
                 //Debug.Log("Anda Salah");
