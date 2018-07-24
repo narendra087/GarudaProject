@@ -55,8 +55,6 @@ public class benar9 : MonoBehaviour
     {
 
         transparan.GetComponent<Image>().color = new Color(1, 1, 1, 1);
-        //Debug.Log("Benar");
-        Debug.Log("Next Level");
         StartCoroutine(reset());
     }
 

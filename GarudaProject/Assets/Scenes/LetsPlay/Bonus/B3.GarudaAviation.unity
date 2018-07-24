@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1248,7 +1248,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 135278091}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 452482822}
@@ -1360,7 +1360,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 197059775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 32032659}
@@ -2522,7 +2522,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 371433452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 88630926}
@@ -2808,7 +2808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellWord: {fileID: 38536794}
   result: {fileID: 38536794}
-  lett1: {fileID: 1251471903}
+  lett1: {fileID: 768744671}
   lett2: {fileID: 319799942}
   lett3: {fileID: 1603054426}
   lett4: {fileID: 27563853}
@@ -3448,7 +3448,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 569786824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 66180252}
@@ -3459,7 +3459,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 569786824}
-  m_Text: a
+  m_Text: i
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -5354,7 +5354,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204991457}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 1312537181}
@@ -5885,7 +5885,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1256959397}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 407142131}
@@ -6635,7 +6635,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1391988800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 1137643351}
@@ -7044,7 +7044,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1560733804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 1251471904}
@@ -8455,7 +8455,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1906293034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 225984296}
@@ -8903,7 +8903,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2137584082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6621bae8f31460745ae53e3b89dabf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 487dd2f331e9af14b8c8c8b669af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 41974355}
