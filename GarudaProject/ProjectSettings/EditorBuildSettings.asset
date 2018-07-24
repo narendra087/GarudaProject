@@ -125,4 +125,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LetsPlay/Synergy/Synergy Level.unity
     guid: 7047f3a2f01f8094f909ff777e270ea6
+  - enabled: 1
+    path: Assets/Scenes/LetsPlay/Bonus/B3.s.unity
+    guid: 89588729b923bb8438adbdd99327c945
   m_configObjects: {}

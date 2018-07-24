@@ -81,6 +81,9 @@ public class benar9 : MonoBehaviour
         } else if (cat == "Agility")
         {
             FindObjectOfType<NextLevelAgility>().next();
+        } else if (cat == "Bonus")
+        {
+        	FindObjectOfType<NextLevelBonus>().next();
         } else
         {
             FindObjectOfType<NextLevelSafety>().next();
