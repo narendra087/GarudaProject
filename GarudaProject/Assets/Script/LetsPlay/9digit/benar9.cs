@@ -22,14 +22,14 @@ public class benar9 : MonoBehaviour
     public RectTransform lett9;
     public Image Img;
     public Animator Anim;
+
     AudioSource audioData;
 
-    //public static List<string> selectSoal = new List<string>() { "c", "o", "l", "", "", ""};
 
     public void Start()
     {
+    	audioData = GetComponent<AudioSource>();
         // gmScript.currentWord = "";
-        audioData = GetComponent<AudioSource>();
         if (gm9.currentWord == soal)
         {
             lett1.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(0, 1);
@@ -55,12 +55,14 @@ public class benar9 : MonoBehaviour
     {
 
         transparan.GetComponent<Image>().color = new Color(1, 1, 1, 1);
+        //Debug.Log("Benar");
+        Debug.Log("Next Level");
         StartCoroutine(reset());
     }
 
     IEnumerator reset()
     {
-        audioData.Play();
+    	audioData.Play();
         popUp9.game = 0;
         gm9.count = 0;
         gm9.currentWord = soal;

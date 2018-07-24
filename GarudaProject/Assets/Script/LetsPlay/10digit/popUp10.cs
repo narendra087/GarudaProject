@@ -32,7 +32,7 @@ public class popUp10 : MonoBehaviour
             gm10.letterNum += 1;
             // gmScript.selectLetter[gmScript.letterNum] = GetComponent<SpriteRenderer>().sprite.name;
             // gmScript.selectLetter[gmScript.letterNum] = EventSystem.current.currentSelectedGameObject.name;
-            gm10.selectLetter[gm9.letterNum] = GetComponent<TextMesh>().text;
+            gm10.selectLetter[gm10.letterNum] = GetComponent<TextMesh>().text;
             Debug.Log("Count = " + gm10.count);
             Debug.Log(game);
         }

@@ -25,7 +25,6 @@ public class gm9 : MonoBehaviour
 
     public static List<string> selectLetter = new List<string>() { "", "", "", "", "", "", "", "", "" };
     public static int letterNum = 0;
-    
 
     public static int count = 0;
     public static int cek = 0;
