@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -376,7 +376,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4ee0d79efb0c0bd4991552dc669a9fe7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 90e45b3a374b04241bdec1f5e3856215, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -557,7 +557,7 @@ GameObject:
   - component: {fileID: 41974356}
   - component: {fileID: 41974355}
   m_Layer: 5
-  m_Name: clickme6
+  m_Name: clickme7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 34ce3fe412fe83b488814082dadf29db, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58d70fa426779fc43967c2712d8af6a1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -680,7 +680,7 @@ GameObject:
   - component: {fileID: 66180252}
   - component: {fileID: 66180251}
   m_Layer: 5
-  m_Name: clickme8
+  m_Name: clickme9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -787,7 +787,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e47c1c56a46f20d4da590d453b90688e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ee0d79efb0c0bd4991552dc669a9fe7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1033,7 +1033,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 34ce3fe412fe83b488814082dadf29db, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 893ff37828b59d84181120793c5d0267, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1215,7 +1215,7 @@ GameObject:
   - component: {fileID: 135278094}
   - component: {fileID: 135278093}
   m_Layer: 0
-  m_Name: GameObject7
+  m_Name: GameObject8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1259,7 +1259,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 135278091}
-  m_Text: s
+  m_Text: d
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1371,7 +1371,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 197059775}
-  m_Text: i
+  m_Text: u
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1688,7 +1688,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 6de9ff929f66fdb41a4f1ef203f6f928, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c5816cae8a71b694bbe2381eeac3c303, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1912,7 +1912,7 @@ GameObject:
   - component: {fileID: 298333482}
   - component: {fileID: 298333481}
   m_Layer: 0
-  m_Name: jawab7
+  m_Name: jawab13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2220,9 +2220,9 @@ GameObject:
   m_Component:
   - component: {fileID: 346862508}
   - component: {fileID: 346862512}
-  - component: {fileID: 346862511}
   - component: {fileID: 346862510}
   - component: {fileID: 346862509}
+  - component: {fileID: 346862511}
   m_Layer: 0
   m_Name: Benar
   m_TagString: Untagged
@@ -2357,13 +2357,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 346862507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c533c55023b573438e040e7d6a06c46, type: 3}
+  m_Script: {fileID: 11500000, guid: 41f1d013ee43d9a4aacf7932ae5823c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   transparan: {fileID: 346862508}
-  category: Safety Level
-  soal: managerisk
-  cat: Safety
+  category: Bonus Scene
+  soal: garudaaviation
+  cat: Bonus
   lett1: {fileID: 768744671}
   lett2: {fileID: 319799942}
   lett3: {fileID: 1603054426}
@@ -2374,6 +2374,10 @@ MonoBehaviour:
   lett8: {fileID: 1775744133}
   lett9: {fileID: 1779459901}
   lett10: {fileID: 1802921671}
+  lett11: {fileID: 1168110437}
+  lett12: {fileID: 1161784287}
+  lett13: {fileID: 298333480}
+  lett14: {fileID: 1234602708}
   Img: {fileID: 411635502}
   Anim: {fileID: 411635501}
 --- !u!114 &346862512
@@ -2414,7 +2418,7 @@ GameObject:
   - component: {fileID: 355372526}
   - component: {fileID: 355372525}
   m_Layer: 5
-  m_Name: kotakjawab9 (1)
+  m_Name: kotakjawab12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2529,7 +2533,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 371433452}
-  m_Text: e
+  m_Text: g
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2761,7 +2765,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8fcef3582cdeb814e8768e60fe403f4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9fc7ccb094ac839488de7687ff6676a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2799,12 +2803,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 411370760}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea53b34a5d5261f4d92c4091c3c0fff0, type: 3}
+  m_Script: {fileID: 11500000, guid: f57ada2671f4971429ce4610df1ed272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spellWord: {fileID: 38536794}
   result: {fileID: 38536794}
-  lett1: {fileID: 768744671}
+  lett1: {fileID: 1251471903}
   lett2: {fileID: 319799942}
   lett3: {fileID: 1603054426}
   lett4: {fileID: 27563853}
@@ -2814,7 +2818,11 @@ MonoBehaviour:
   lett8: {fileID: 1775744133}
   lett9: {fileID: 1779459901}
   lett10: {fileID: 1802921671}
-  soal: managerisk
+  lett11: {fileID: 1168110437}
+  lett12: {fileID: 1161784287}
+  lett13: {fileID: 298333480}
+  lett14: {fileID: 1234602708}
+  soal: garudaaviation
 --- !u!4 &411370762
 Transform:
   m_ObjectHideFlags: 0
@@ -3023,7 +3031,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2826358b2c2d3254f95ccb984e72f7f1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c81a7db30965c2a4f9fb6a97c113b7dd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3407,7 +3415,7 @@ GameObject:
   - component: {fileID: 569786827}
   - component: {fileID: 569786826}
   m_Layer: 0
-  m_Name: GameObject8
+  m_Name: GameObject9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3515,9 +3523,9 @@ GameObject:
   m_Component:
   - component: {fileID: 722172846}
   - component: {fileID: 722172850}
-  - component: {fileID: 722172849}
   - component: {fileID: 722172848}
   - component: {fileID: 722172847}
+  - component: {fileID: 722172849}
   m_Layer: 0
   m_Name: Salah
   m_TagString: Untagged
@@ -3652,7 +3660,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 722172845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 201ef1ed3523d3c468aa6d3b8fb22b55, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d5b42b50a62b5243893278f65927587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   transparan: {fileID: 722172846}
@@ -3816,7 +3824,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284099617
+    rgba: 4279999482
   m_fontColor: {r: 0.9803922, g: 0.60784316, b: 0.10588236, a: 1}
   m_enableVertexGradient: 0
   m_fontColorGradient:
@@ -4180,7 +4188,7 @@ GameObject:
   - component: {fileID: 922535872}
   - component: {fileID: 922535871}
   m_Layer: 5
-  m_Name: kotakjawab10 (1)
+  m_Name: kotakjawab14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4249,7 +4257,7 @@ GameObject:
   - component: {fileID: 939699746}
   - component: {fileID: 939699745}
   m_Layer: 5
-  m_Name: kotakjawab7 (1)
+  m_Name: kotakjawab13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4838,7 +4846,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1100302551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa2ee773f26166a4f80ac56be992befd, type: 3}
+  m_Script: {fileID: 11500000, guid: dadff14ca5fa69941aec18eeb8e5a879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1100302553
@@ -4854,7 +4862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 981199033}
   SkorTersimpan: {fileID: 203559653}
-  soal: managerisk
+  soal: garudaaviation
 --- !u!4 &1100302554
 Transform:
   m_ObjectHideFlags: 0
@@ -4976,7 +4984,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: b7a2388508cc08241aad5dfc1ca3bbbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8fcef3582cdeb814e8768e60fe403f4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5001,7 +5009,7 @@ GameObject:
   - component: {fileID: 1161784289}
   - component: {fileID: 1161784288}
   m_Layer: 0
-  m_Name: jawab9
+  m_Name: jawab12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5156,7 +5164,7 @@ GameObject:
   - component: {fileID: 1168110439}
   - component: {fileID: 1168110438}
   m_Layer: 0
-  m_Name: jawab8
+  m_Name: jawab11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5357,7 +5365,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1204991457}
-  m_Text: n
+  m_Text: o
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -5497,7 +5505,7 @@ GameObject:
   - component: {fileID: 1234602710}
   - component: {fileID: 1234602709}
   m_Layer: 0
-  m_Name: jawab10
+  m_Name: jawab14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5749,7 +5757,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 893ff37828b59d84181120793c5d0267, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e47c1c56a46f20d4da590d453b90688e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5888,7 +5896,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1256959397}
-  m_Text: r
+  m_Text: v
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -5994,7 +6002,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1276841392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93ee8e3df12ea4c4f872d875fd4dd812, type: 3}
+  m_Script: {fileID: 11500000, guid: e69f5e082576d504d8042b22fa939b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_YourFirstButton: {fileID: 1276841396}
@@ -6329,7 +6337,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c5816cae8a71b694bbe2381eeac3c303, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2d83a562a34522640a133d4c40be63e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6594,7 +6602,7 @@ GameObject:
   - component: {fileID: 1391988803}
   - component: {fileID: 1391988802}
   m_Layer: 0
-  m_Name: GameObject9
+  m_Name: GameObject10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6638,7 +6646,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1391988800}
-  m_Text: k
+  m_Text: r
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -7047,7 +7055,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1560733804}
-  m_Text: g
+  m_Text: a
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -7661,7 +7669,7 @@ GameObject:
   - component: {fileID: 1749082017}
   - component: {fileID: 1749082016}
   m_Layer: 5
-  m_Name: kotakjawab8 (1)
+  m_Name: kotakjawab11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8458,7 +8466,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1906293034}
-  m_Text: m
+  m_Text: n
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -8862,7 +8870,7 @@ GameObject:
   - component: {fileID: 2137584085}
   - component: {fileID: 2137584084}
   m_Layer: 0
-  m_Name: GameObject6 (1)
+  m_Name: GameObject7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8906,7 +8914,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2137584082}
-  m_Text: e
+  m_Text: t
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
