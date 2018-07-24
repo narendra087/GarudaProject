@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LetsPlay/Agility/A5.Persistent.unity
     guid: 4b7269411e6cd44489e39ee55d5eb918
   - enabled: 1
-    path: Assets/Scenes/Agility Level.unity
+    path: Assets/Scenes/LetsPlay/Agility/Agility Level.unity
     guid: 4735515d9a9dcae4288c81c4b7528e42
   - enabled: 1
     path: Assets/Scenes/LetsPlay/Customer Focus/C1.care.unity
@@ -96,13 +96,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Category Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Customer Level.unity
-    guid: e6dbafc11dde49742bfb2fc24ab96fe1
-  - enabled: 1
     path: Assets/Scenes/gameplay layout fix.unity
     guid: 8a7c5b03f1c87da468f27e5ff8e14b7b
   - enabled: 1
-    path: Assets/Scenes/Integrity Level.unity
+    path: Assets/Scenes/LetsPlay/Integrity/Integrity Level.unity
     guid: 28335d4820b6ea94591c9def31a857e3
   - enabled: 1
     path: Assets/Scenes/Leaderboard Scene.unity
@@ -117,12 +114,15 @@ EditorBuildSettings:
     path: Assets/Scenes/New Scene.unity
     guid: 72982462fb799a7459d292abbf037724
   - enabled: 1
-    path: Assets/Scenes/Safety Level.unity
+    path: Assets/Scenes/LetsPlay/Safety/Safety Level.unity
     guid: 36fe42036d18879449d28adfda34c042
   - enabled: 1
     path: Assets/Scenes/scene gameplay layout fix.unity
     guid: f2b4ed7bf01692e489eda37a1408212b
   - enabled: 1
-    path: Assets/Scenes/Synergy Level.unity
+    path: Assets/Scenes/LetsPlay/Customer Focus/Customer Level.unity
+    guid: e6dbafc11dde49742bfb2fc24ab96fe1
+  - enabled: 1
+    path: Assets/Scenes/LetsPlay/Synergy/Synergy Level.unity
     guid: 7047f3a2f01f8094f909ff777e270ea6
   m_configObjects: {}

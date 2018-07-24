@@ -7,10 +7,12 @@ using UnityEngine.SceneManagement;
 public class salah5 : MonoBehaviour
 {
     public RectTransform transparan;
+    AudioSource audioData;
     
 
     private void Start()
     {
+        audioData = GetComponent<AudioSource>();
         transparan.GetComponent<Image>().color = new Color(1, 1, 1, 0);
 
     }
@@ -26,6 +28,7 @@ public class salah5 : MonoBehaviour
 
     IEnumerator Delay()
     {
+        audioData.Play();
         yield return new WaitForSeconds(0.5f);
         transparan.GetComponent<Image>().color = new Color(1, 1, 1, 0);
         popUp5.game = 1;

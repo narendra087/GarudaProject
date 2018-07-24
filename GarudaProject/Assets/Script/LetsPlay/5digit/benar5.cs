@@ -19,10 +19,13 @@ public class benar5 : MonoBehaviour
     public Image Img;
     public Animator Anim;
 
+    AudioSource audioData;
+
     //public static List<string> selectSoal = new List<string>() { "c", "o", "l", "", "", ""};
 
     public void Start()
     {
+        audioData = GetComponent<AudioSource>();
         // gmScript.currentWord = "";
         if (gm5.currentWord == soal)
         {
@@ -53,6 +56,7 @@ public class benar5 : MonoBehaviour
 
     IEnumerator reset()
     {
+        audioData.Play();
         popUp5.game = 0;
         gm5.count = 0;
         gm5.currentWord = soal;

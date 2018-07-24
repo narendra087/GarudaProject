@@ -18,12 +18,15 @@ public class benar4 : MonoBehaviour
     public Image Img;
     public Animator Anim;
 
+    AudioSource audioData;
+
 
     //public static List<string> selectSoal = new List<string>() { "c", "o", "l", "", "", ""};
 
     public void Start()
     {
         // gmScript.currentWord = "";
+        audioData = GetComponent<AudioSource>();
         if (gm4.currentWord == soal)
         {
             lett1.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(0, 1);
@@ -52,6 +55,7 @@ public class benar4 : MonoBehaviour
 
     IEnumerator reset()
     {
+        audioData.Play();
         popUp4.game = 0;
         gm4.count = 0;
         gm4.currentWord = soal;

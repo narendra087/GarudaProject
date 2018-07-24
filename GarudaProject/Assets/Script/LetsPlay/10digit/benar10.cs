@@ -24,10 +24,13 @@ public class benar10 : MonoBehaviour
     public Image Img;
     public Animator Anim;
 
+    AudioSource audioData;
+
     //public static List<string> selectSoal = new List<string>() { "c", "o", "l", "", "", ""};
 
     public void Start()
     {
+    	audioData = GetComponent<AudioSource>();
         // gmScript.currentWord = "";
         if (gm10.currentWord == soal)
         {
@@ -62,6 +65,7 @@ public class benar10 : MonoBehaviour
 
     IEnumerator reset()
     {
+    	audioData.Play();
         popUp10.game = 0;
         gm10.count = 0;
         gm10.currentWord = soal;

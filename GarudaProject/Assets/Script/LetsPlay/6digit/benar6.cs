@@ -20,11 +20,14 @@ public class benar6 : MonoBehaviour
     public Image Img;
     public Animator Anim;
 
+    AudioSource audioData;
+
     //public static List<string> selectSoal = new List<string>() { "c", "o", "l", "", "", ""};
 
     public void Start()
     {
         // gmScript.currentWord = "";
+        audioData = GetComponent<AudioSource>();
         if (gm6.currentWord == soal)
         {
             lett1.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(0, 1);
@@ -55,6 +58,7 @@ public class benar6 : MonoBehaviour
 
     IEnumerator reset()
     {
+        audioData.Play();
         popUp6.game = 0;
         gm6.count = 0;
         gm6.currentWord = soal;

@@ -21,12 +21,14 @@ public class benar8 : MonoBehaviour
     public RectTransform lett8;
     public Image Img;
     public Animator Anim;
+    AudioSource audioData;
 
     //public static List<string> selectSoal = new List<string>() { "c", "o", "l", "", "", ""};
 
     public void Start()
     {
         // gmScript.currentWord = "";
+        audioData = GetComponent<AudioSource>();
         if (gm8.currentWord == soal)
         {
             lett1.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(0, 1);
@@ -57,6 +59,7 @@ public class benar8 : MonoBehaviour
 
     IEnumerator reset()
     {
+        audioData.Play();
         popUp8.game = 0;
         gm8.count = 0;
         gm8.currentWord = soal;
