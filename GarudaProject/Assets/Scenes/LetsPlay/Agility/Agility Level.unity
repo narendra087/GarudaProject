@@ -2028,10 +2028,10 @@ MonoBehaviour:
   scoreUnlock: 0
   Next_Level: {fileID: 0}
   max_level: 0
-  num_level: A5.Tenacious
+  num_level: A5.Persistent
   t: 5
   sceneload: 
-  nextLevelScene: A5.Tenacious
+  nextLevelScene: A5.Persistent
   Anim: {fileID: 392449384}
   Img: {fileID: 392449381}
 --- !u!1 &1452020426
