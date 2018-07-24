@@ -30,7 +30,7 @@ public class benar9 : MonoBehaviour
     {
         // gmScript.currentWord = "";
         audioData = GetComponent<AudioSource>();
-        if (gm6.currentWord == soal)
+        if (gm9.currentWord == soal)
         {
             lett1.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(0, 1);
             lett2.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(1, 1);
