@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
 
-	public Text nameText;
-	public Text dialogueText;
+	public RectTransform nameText;
+	public RectTransform dialogueText;
 
 	public Animator animator;
 
@@ -21,7 +21,7 @@ public class DialogueManager : MonoBehaviour {
 	{
 		animator.SetBool("IsOpen", true);
 
-		nameText.text = dialogue.name;
+		nameText.GetComponent<TMPro.TextMeshProUGUI>().text = dialogue.name;
 
 		sentences.Clear();
 
@@ -48,10 +48,10 @@ public class DialogueManager : MonoBehaviour {
 
 	IEnumerator TypeSentence (string sentence)
 	{
-		dialogueText.text = "";
+		dialogueText.GetComponent<TMPro.TextMeshProUGUI>().text = "";
 		foreach (char letter in sentence.ToCharArray())
 		{
-			dialogueText.text += letter;
+			dialogueText.GetComponent<TMPro.TextMeshProUGUI>().text += letter;
 			yield return null;
 		}
 	}
