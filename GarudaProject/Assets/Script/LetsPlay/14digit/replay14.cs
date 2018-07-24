@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class replay9 : MonoBehaviour
+public class replay14 : MonoBehaviour
 {
     public Button m_YourFirstButton;
 
@@ -22,11 +22,11 @@ public class replay9 : MonoBehaviour
 
     private void TaskOnClick()
     {
-        popUp9.game = 1;
-        gm9.currentWord = "";
-        gm9.count = 0;
-        Debug.Log(popUp9.game + "-" + gm9.count);
-        FindObjectOfType<benar9>().Start();
+        popUp14.game = 1;
+        gm14.currentWord = "";
+        gm14.count = 0;
+        Debug.Log(popUp14.game + "-" + gm14.count);
+        FindObjectOfType<benar14>().Start();
 
     }
 }

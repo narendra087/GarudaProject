@@ -60,7 +60,6 @@ public class gm10 : MonoBehaviour
                 lett7.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(6, 1);
                 lett8.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(7, 1);
                 lett9.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(8, 1);
-                lett9.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(8, 1);
                 lett10.GetComponent<TMPro.TextMeshProUGUI>().text = soal.Substring(9, 1);
             }
             else if (currentWord != soal && count == soal.Length)

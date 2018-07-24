@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class popUp10 : MonoBehaviour
+public class popUp14 : MonoBehaviour
 {
     //Make sure to attach these Buttons in the Inspector
     public Button m_YourFirstButton;
@@ -23,17 +23,17 @@ public class popUp10 : MonoBehaviour
         if (game == 1) 
         {
             //Debug.Log("tempe");
-            gm10.cek = 1;
-            gm10.count++;
+            gm14.cek = 1;
+            gm14.count++;
             //gmScript.currentWord += GetComponent<SpriteRenderer>().sprite.name;
             //gmScript.currentWord += EventSystem.current.currentSelectedGameObject.name;
-            gm10.currentWord += GetComponent<TextMesh>().text;
+            gm14.currentWord += GetComponent<TextMesh>().text;
 
-            gm10.letterNum += 1;
+            gm14.letterNum += 1;
             // gmScript.selectLetter[gmScript.letterNum] = GetComponent<SpriteRenderer>().sprite.name;
             // gmScript.selectLetter[gmScript.letterNum] = EventSystem.current.currentSelectedGameObject.name;
-            gm10.selectLetter[gm10.letterNum] = GetComponent<TextMesh>().text;
-            Debug.Log("Count = " + gm10.count);
+            gm14.selectLetter[gm14.letterNum] = GetComponent<TextMesh>().text;
+            Debug.Log("Count = " + gm14.count);
             Debug.Log(game);
         }
     }
