@@ -2473,7 +2473,7 @@ GameObject:
   - component: {fileID: 536262942}
   - component: {fileID: 536262945}
   - component: {fileID: 536262944}
-  - component: {fileID: 536262943}
+  - component: {fileID: 536262946}
   m_Layer: 5
   m_Name: Next_Level
   m_TagString: Untagged
@@ -2501,26 +2501,6 @@ RectTransform:
   m_AnchoredPosition: {x: 350, y: -675}
   m_SizeDelta: {x: 380.4, y: 374.2}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &536262943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 536262941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67633c7a5b9f1bf419fad5fcdd0e9a11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreUnlock: 10
-  Next_Level: {fileID: 536262941}
-  max_level: 6
-  num_level: 
-  t: 1
-  sceneload: Integrity Level
-  nextLevelScene: num_level
-  Anim: {fileID: 0}
-  Img: {fileID: 0}
 --- !u!114 &536262944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2554,6 +2534,26 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 536262941}
+--- !u!114 &536262946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 536262941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f9a3a65a7380343a425622ef4e9e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreUnlock: 2500
+  Next_Level: {fileID: 536262941}
+  max_level: 3
+  num_level: 
+  t: 2
+  sceneload: Bonus Scene
+  nextLevelScene: num_level
+  Anim: {fileID: 162061654}
+  Img: {fileID: 162061653}
 --- !u!1 &544073915
 GameObject:
   m_ObjectHideFlags: 0

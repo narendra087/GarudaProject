@@ -4636,6 +4636,7 @@ GameObject:
   - component: {fileID: 983445493}
   - component: {fileID: 983445492}
   - component: {fileID: 983445491}
+  - component: {fileID: 983445494}
   m_Layer: 5
   m_Name: Next_Level
   m_TagString: Untagged
@@ -4716,6 +4717,26 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 983445489}
+--- !u!114 &983445494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 983445489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f9a3a65a7380343a425622ef4e9e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreUnlock: 4000
+  Next_Level: {fileID: 983445489}
+  max_level: 3
+  num_level: 
+  t: 3
+  sceneload: Bonus Scene
+  nextLevelScene: num_level
+  Anim: {fileID: 411635501}
+  Img: {fileID: 411635502}
 --- !u!1 &1027072056
 GameObject:
   m_ObjectHideFlags: 0
