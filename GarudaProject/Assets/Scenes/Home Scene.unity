@@ -2225,11 +2225,12 @@ MonoBehaviour:
   dialogue:
     name: Here's How..
     sentences:
-    - This game is all about SINCERITY.
-    - To play it, just TAP and ARRAGE the words ..
-    - ' .. to become a words close to values of SINCERITY'
-    - If you notice, started at lvl4 you should tap the same twice!
-    - Think fast and be the fastest one !!
+    - Ini adalah game tentang SINCERITY
+    - Untuk memainkannya, cukup tekan dan susun huruf yang ada ..
+    - ' .. menjadi sebuah kata yang berhubungan dengan SINCERITY'
+    - Jika kamu peka, pada lvl 4 akan ada huruf yang berulang
+    - Jangan terlalu lama berfikir atau poinmu akan berkurang
+    - Berpikirlah dengan cepat dan jadilah juara !!!
 --- !u!114 &1977221158
 MonoBehaviour:
   m_ObjectHideFlags: 0
