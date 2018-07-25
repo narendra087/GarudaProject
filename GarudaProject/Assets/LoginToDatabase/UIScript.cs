@@ -15,6 +15,11 @@ public class UIScript : MonoBehaviour
     [SerializeField]
     private Text pointsTxt;
 
+    public void SignIn()
+    {
+        PlayGamesScript.SignIn();
+    }
+
     public void GetPoint()
     {
         ManagerScript.Instance.IncrementCounter();
