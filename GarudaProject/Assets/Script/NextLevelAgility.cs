@@ -18,7 +18,7 @@ public class NextLevelAgility : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		gmScript.nilai = 0;
+		//gmScript.nilai = 0;
 		thelevelAgility = PlayerPrefs.GetInt("thelevelAgility", thelevelAgility);
 	}
 	

@@ -18,7 +18,7 @@ public class NextLevelBonus : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		gmScript.nilai = 0;
+		// scoreS.LoadScore();
 		thelevelBonus = PlayerPrefs.GetInt("thelevelBonus", thelevelBonus);
 	}
 	
