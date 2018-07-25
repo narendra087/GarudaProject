@@ -45,7 +45,7 @@ public class scoreS : MonoBehaviour {
 
                     //Debug.Log("test2");
                     nilai = nilai + 100 + Timer.timeLeft * 2;
-                Social.ReportScore(12345, "CgkIt5G-0sQdEAIQAQ", (bool success) => {
+                Social.ReportScore(nilai, "CgkIoIG63tweEAIQCw", (bool success) => {
                     // handle success or failure
                 });
 
