@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home Scene.unity
     guid: f464430322efe9b4e8ff5de12881b28b
+  - enabled: 1
+    path: Assets/Scenes/Category Scene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/LetsPlay/Synergy/Synergy Level.unity
+    guid: 7047f3a2f01f8094f909ff777e270ea6
+  - enabled: 1
+    path: Assets/Scenes/LetsPlay/Synergy/S1.trust.unity
+    guid: 358bd06e0f80afc4d840fc84c3e35432
   m_configObjects: {}
