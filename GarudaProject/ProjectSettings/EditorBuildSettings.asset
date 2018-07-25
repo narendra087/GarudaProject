@@ -139,6 +139,7 @@ EditorBuildSettings:
     guid: 7047f3a2f01f8094f909ff777e270ea6
   - enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     path: Assets/Scenes/Materi Sincerity/Menu Materi Scene.unity
     guid: b27841f6791d2a046ad0cfc97b36db6b
   - enabled: 1
@@ -157,6 +158,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Materi Sincerity/Materi Safety Scene.unity
     guid: 6f38c5332ce4bd04187c6459b9a293d9
 =======
+=======
+>>>>>>> b6e1bcbad7d19e8f10e8a65df4a1749635d31dbd
     path: 
     guid: 89588729b923bb8438adbdd99327c945
 >>>>>>> b6e1bcbad7d19e8f10e8a65df4a1749635d31dbd
