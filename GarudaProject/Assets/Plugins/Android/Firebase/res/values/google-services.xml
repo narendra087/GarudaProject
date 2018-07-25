@@ -6,6 +6,6 @@
   <string name="project_id" translatable="false">garuda-word-3d21f</string>
   <string name="google_api_key" translatable="false">AIzaSyC8V-Z8jomXrLRuIlMV_1z8qiAZl36AWXQ</string>
   <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC8V-Z8jomXrLRuIlMV_1z8qiAZl36AWXQ</string>
-  <string name="google_app_id" translatable="false">1:792268046405:android:82490c589fb4a6e1</string>
+  <string name="google_app_id" translatable="false">1:792268046405:android:20de890ed260855b</string>
   <string name="default_web_client_id" translatable="false">792268046405-53kl68li2kv9b4pe42ancberarrv66ao.apps.googleusercontent.com</string>
 </resources>

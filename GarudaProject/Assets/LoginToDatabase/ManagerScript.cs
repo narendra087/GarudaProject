@@ -20,7 +20,7 @@ public class ManagerScript : MonoBehaviour
 
     public void RestartGame()
     {
-        PlayGamesScript.AddScoreToLeaderboard(GarudaAchievement.leaderboard_leader, Counter);
+        PlayGamesScript.AddScoreToLeaderboard(GPGSIds.leaderboard_high_score, Counter);
         Counter = 0;
         UIScript.Instance.UpdatePointsText();
     }

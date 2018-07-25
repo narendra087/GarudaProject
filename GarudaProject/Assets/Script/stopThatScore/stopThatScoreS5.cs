@@ -23,6 +23,7 @@ public class stopThatScoreS5 : MonoBehaviour {
                 if (scoreS.sudah == true)
                 {
                     scoreAttemp = false;
+                    UIScript.Unlock1();
                 }
             }
 
