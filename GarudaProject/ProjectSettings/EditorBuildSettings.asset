@@ -138,6 +138,29 @@ EditorBuildSettings:
     path: Assets/Scenes/LetsPlay/Synergy/Synergy Level.unity
     guid: 7047f3a2f01f8094f909ff777e270ea6
   - enabled: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+    path: Assets/Scenes/Materi Sincerity/Menu Materi Scene.unity
+    guid: b27841f6791d2a046ad0cfc97b36db6b
+  - enabled: 1
+    path: Assets/Scenes/Materi Sincerity/Materi Synergy Scene.unity
+    guid: e907f36bc935f9b4fb34c77eebce4da4
+  - enabled: 1
+    path: Assets/Scenes/Materi Sincerity/Materi Integrity Scene.unity
+    guid: f8902ee8f90d0864da35c5163cb9d2ec
+  - enabled: 1
+    path: Assets/Scenes/Materi Sincerity/Materi Customer Scene.unity
+    guid: fe6da7c36b19caf439a7e9e90683dd42
+  - enabled: 1
+    path: Assets/Scenes/Materi Sincerity/Materi Agility Scene.unity
+    guid: 81ceb253f204b1348822c1fafb8f4d93
+  - enabled: 1
+    path: Assets/Scenes/Materi Sincerity/Materi Safety Scene.unity
+    guid: 6f38c5332ce4bd04187c6459b9a293d9
+=======
+=======
+>>>>>>> b6e1bcbad7d19e8f10e8a65df4a1749635d31dbd
     path: 
     guid: 89588729b923bb8438adbdd99327c945
+>>>>>>> b6e1bcbad7d19e8f10e8a65df4a1749635d31dbd
   m_configObjects: {}

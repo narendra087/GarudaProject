@@ -3985,13 +3985,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -186.77573}
   m_LocalScale: {x: 1, y: 1, z: 0.72095996}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1275674773}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 540, y: 960}
-  m_SizeDelta: {x: 1080, y: 1920}
+  m_AnchoredPosition: {x: 4.700012, y: 0}
+  m_SizeDelta: {x: 71, y: 80.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1152248046
 Animator:
@@ -4075,6 +4075,7 @@ RectTransform:
   - {fileID: 207083809}
   - {fileID: 2095942391}
   - {fileID: 1007562956}
+  - {fileID: 1152248045}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1858abb70432f4c9dd44b142beb174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Integrity Level
+  sceneName: Materi Integrity Scene
   Anim: {fileID: 1598619109}
   Img: {fileID: 1598619110}
 --- !u!114 &185892636
@@ -658,7 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1858abb70432f4c9dd44b142beb174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Customer Level
+  sceneName: Materi Customer Scene
   Anim: {fileID: 1598619109}
   Img: {fileID: 1598619110}
 --- !u!114 &1226960716
@@ -874,7 +874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1858abb70432f4c9dd44b142beb174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Safety Level
+  sceneName: Materi Safety Scene
   Anim: {fileID: 1598619109}
   Img: {fileID: 1598619110}
 --- !u!114 &1377189965
@@ -1326,8 +1326,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 4.7, y: 0}
+  m_SizeDelta: {x: 71, y: 80.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1598619109
 Animator:
@@ -1428,7 +1428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1858abb70432f4c9dd44b142beb174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Agility Level
+  sceneName: Materi Agility Scene
   Anim: {fileID: 1598619109}
   Img: {fileID: 1598619110}
 --- !u!114 &1740856765
@@ -1576,7 +1576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1858abb70432f4c9dd44b142beb174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Synergy Level
+  sceneName: Materi Synergy Scene
   Anim: {fileID: 1598619109}
   Img: {fileID: 1598619110}
 --- !u!114 &1801480740

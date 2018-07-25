@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1858abb70432f4c9dd44b142beb174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Category Scene
+  sceneName: Menu Materi Scene
   Anim: {fileID: 2037245654}
   Img: {fileID: 2037245655}
 --- !u!114 &1600118816
