@@ -18,16 +18,16 @@ public class BonusLevel : MonoBehaviour {
 	void Update () {
 		if (nilaiB == 1111)
 		{
-			unlockBonus[1].SetActive(true);
+			unlockBonus[1].SetActive(false);
 		} else if (nilaiB == 2222)
 		{
-			unlockBonus[1].SetActive(true);
-			unlockBonus[2].SetActive(true);
+			unlockBonus[1].SetActive(false);
+			unlockBonus[2].SetActive(false);
 		} else if (nilaiB == 3333)
 		{
-			unlockBonus[1].SetActive(true);
-			unlockBonus[2].SetActive(true);
-			unlockBonus[3].SetActive(true);
+			unlockBonus[1].SetActive(false);
+			unlockBonus[2].SetActive(false);
+			unlockBonus[3].SetActive(false);
 		}
 	}
 }
