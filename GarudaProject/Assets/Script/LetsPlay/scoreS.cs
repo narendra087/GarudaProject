@@ -9,7 +9,7 @@ public class scoreS : MonoBehaviour {
     //public Transform scoreCoba;
     public Transform SkorTersimpan;
 
-    public static int nilai = 0;
+    public static int nilai = 2000;
     public static int SavedScore;
     public string soal;
 
@@ -34,11 +34,11 @@ public class scoreS : MonoBehaviour {
     // Update is called once per frame
     public void ScoreOn () {
         Debug.Log("Masuk Update");
-            if (popUp4.game == 1 || popUp5.game == 1 || popUp6.game == 1 || popUp7.game == 1 || popUp8.game == 1 || popUp9.game == 1 || popUp10.game == 1 || popUp11.game == 1)
-            {
-                //Debug.Log("test1");
-                if (gm4.currentWord == soal && gm4.count == soal.Length || gm5.currentWord == soal && gm5.count == soal.Length || gm6.currentWord == soal && gm6.count == soal.Length || gm7.currentWord == soal && gm7.count == soal.Length ||
-                    gm8.currentWord == soal && gm8.count == soal.Length || gm9.currentWord == soal && gm9.count == soal.Length || gm10.currentWord == soal && gm10.count == soal.Length || gm11.currentWord == soal && gm11.count == soal.Length)
+        if (popUp4.game == 1 || popUp5.game == 1 || popUp6.game == 1 || popUp7.game == 1 || popUp8.game == 1 || popUp9.game == 1 || popUp10.game == 1 || popUp11.game == 1 || popUp14.game == 1)
+        {
+            //Debug.Log("test1");
+            if (gm4.currentWord == soal && gm4.count == soal.Length || gm5.currentWord == soal && gm5.count == soal.Length || gm6.currentWord == soal && gm6.count == soal.Length || gm7.currentWord == soal && gm7.count == soal.Length ||
+                gm8.currentWord == soal && gm8.count == soal.Length || gm9.currentWord == soal && gm9.count == soal.Length || gm10.currentWord == soal && gm10.count == soal.Length || gm11.currentWord == soal && gm11.count == soal.Length || gm14.currentWord == soal && gm14.count == soal.Length)
                 {
 
                     //Debug.Log("test2");

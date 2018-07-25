@@ -5,7 +5,7 @@ using UnityEngine;
 public class stopThatScoreB3 : MonoBehaviour {
 
 
-    public static bool scoreAttemp = true;
+    private static bool scoreAttemp = true;
   
     public void Start () {
 

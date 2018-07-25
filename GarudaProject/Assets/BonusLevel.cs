@@ -2,28 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Experimental.UIElements;
 
 public class BonusLevel : MonoBehaviour {
 
 	// Use this for initialization
 	public GameObject[] unlockBonus;
 	int nilaiB;
+    public RectTransform Text;
 
-	void Start () {
+    void Start () {
 		nilaiB = scoreS.nilai;
-		// Text.text = scoreS.nilai;
-	}
+       // result.text = scoreS.nilai;
+         Text.GetComponent<TMPro.TextMeshProUGUI>().text = scoreS.nilai.ToString();
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		if (nilaiB == 1111)
+		if (scoreS.nilai == 1111)
 		{
 			unlockBonus[1].SetActive(false);
-		} else if (nilaiB == 2222)
+		} else if (scoreS.nilai == 2222)
 		{
 			unlockBonus[1].SetActive(false);
 			unlockBonus[2].SetActive(false);
-		} else if (nilaiB == 3333)
+		} else if (scoreS.nilai == 3333)
 		{
 			unlockBonus[1].SetActive(false);
 			unlockBonus[2].SetActive(false);
