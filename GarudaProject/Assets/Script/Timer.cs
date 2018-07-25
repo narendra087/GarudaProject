@@ -8,10 +8,13 @@ public class Timer : MonoBehaviour
     public static int timeLeft;
     public Transform countdownText;
     public string newscene;
+
+    AudioSource audioData;
     // Use this for initialization
 
     void Start()
     {
+        audioData = GetComponent<AudioSource>();
         timeLeft = 20;
         StartCoroutine("LoseTime");
     }
@@ -20,8 +23,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         GetComponent<TMPro.TextMeshProUGUI>().text = (timeLeft + " ");
-
-        if (timeLeft <= 0)
+        if (timeLeft == 0)
         {
             StopCoroutine("LoseTime");
             GetComponent<TMPro.TextMeshProUGUI>().text = "Times Up!";
@@ -43,7 +45,9 @@ public class Timer : MonoBehaviour
             gm11.count = 0;
             gm14.currentWord = "";
             gm14.count = 0;
+            audioData.Play();
             SceneManager.LoadScene(newscene);
+            //SceneManager.LoadScene(newscene);
         }
     }
 
