@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -53,7 +54,17 @@ public class scoreS : MonoBehaviour {
                 //stopThatScore.scoreAttemp = false;
                // stopThatScore.scoreAttempChange = true;
                 sudah = true;
+
                 }
+                if (Timer.timeLeft <= 0)
+            {
+                nilai = nilai - 3;
+
+                //if (stopThatScoreB3.Start = true)
+                //{
+                //    nilai = nilai - 1000;
+                //}
+            }
             
                            
         }
