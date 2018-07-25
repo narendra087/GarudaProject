@@ -38,7 +38,7 @@ public class scoreS : MonoBehaviour {
         {
             //Debug.Log("test1");
             if (gm4.currentWord == soal && gm4.count == soal.Length || gm5.currentWord == soal && gm5.count == soal.Length || gm6.currentWord == soal && gm6.count == soal.Length || gm7.currentWord == soal && gm7.count == soal.Length ||
-                gm8.currentWord == soal && gm8.count == soal.Length || gm9.currentWord == soal || gm10.currentWord == soal && gm10.count == soal.Length || gm11.currentWord == soal && gm11.count == soal.Length || gm14.currentWord == soal && gm14.count == soal.Length)
+                gm8.currentWord == soal && gm8.count == soal.Length || gm9.currentWord == soal && gm9.count == soal.Length || gm10.currentWord == soal && gm10.count == soal.Length || gm11.currentWord == soal && gm11.count == soal.Length || gm14.currentWord == soal && gm14.count == soal.Length)
                 {
 
                     //Debug.Log("test2");
@@ -65,14 +65,14 @@ public class scoreS : MonoBehaviour {
                 //    nilai = nilai - 1000;
                 //}
             }
-            nilai = nilai - 3;
+            //nilai = nilai - 3;
 
 
 
         }
         //nilai = nilai - 1;
         //nilai = nilai + 100 + Timer.timeLeft * 2;
-        nilai = nilai - 3;
+       // nilai = nilai - 3;
 
 
     }
