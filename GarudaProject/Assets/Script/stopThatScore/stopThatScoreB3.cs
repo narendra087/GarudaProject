@@ -7,7 +7,7 @@ public class stopThatScoreB3 : MonoBehaviour {
 
     private static bool scoreAttemp = true;
   
-    void Start () {
+    public void Start () {
 
         FindObjectOfType<scoreS>().start();
 

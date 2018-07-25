@@ -41,6 +41,8 @@ public class Timer : MonoBehaviour
             gm10.count = 0;
             gm11.currentWord = "";
             gm11.count = 0;
+            gm14.currentWord = "";
+            gm14.count = 0;
             SceneManager.LoadScene(newscene);
         }
     }
