@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GooglePlayGames;
+using UnityEngine.SocialPlatforms;
 
 public class scoreS : MonoBehaviour {
 
@@ -43,14 +45,17 @@ public class scoreS : MonoBehaviour {
 
                     //Debug.Log("test2");
                     nilai = nilai + 100 + Timer.timeLeft * 2;
+                Social.ReportScore(12345, "CgkIt5G-0sQdEAIQAQ", (bool success) => {
+                    // handle success or failure
+                });
 
-                    //nilaiLaju += 1;
-                    //savedNilai[nilaiLaju] = nilai;
+                //nilaiLaju += 1;
+                //savedNilai[nilaiLaju] = nilai;
 
-                   // scoreCoba.GetComponent<TMPro.TextMeshProUGUI>().text = scoreAttemp.ToString();
-                  //  scoreAttemp = 0;
+                // scoreCoba.GetComponent<TMPro.TextMeshProUGUI>().text = scoreAttemp.ToString();
+                //  scoreAttemp = 0;
 
-                    score.GetComponent<TMPro.TextMeshProUGUI>().text = nilai.ToString();
+                score.GetComponent<TMPro.TextMeshProUGUI>().text = nilai.ToString();
                 //stopThatScore.scoreAttemp = false;
                // stopThatScore.scoreAttempChange = true;
                 sudah = true;
