@@ -865,6 +865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1858abb70432f4c9dd44b142beb174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
+  Anim: {fileID: 0}
+  Img: {fileID: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1075,6 +1078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83305a4db02d32408d7fdf3d6678d48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soal: cet
   lett1: {fileID: 322131732}
   lett2: {fileID: 1805533932}
   lett3: {fileID: 1509222774}
@@ -1530,9 +1534,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spellWord: {fileID: 1325032815}
+  result: {fileID: 0}
+  score: {fileID: 0}
+  SkorTersimpan: {fileID: 0}
   lett1: {fileID: 322131732}
   lett2: {fileID: 1805533932}
   lett3: {fileID: 1509222774}
+  soal: ctt
 --- !u!4 &1266191994
 Transform:
   m_ObjectHideFlags: 0
@@ -2535,6 +2543,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transparan: {fileID: 1815765834}
+  category: 
+  soal: 
+  lett1: {fileID: 0}
+  lett2: {fileID: 0}
+  lett3: {fileID: 0}
+  Img: {fileID: 0}
+  Anim: {fileID: 0}
 --- !u!212 &1815765833
 SpriteRenderer:
   m_ObjectHideFlags: 0
