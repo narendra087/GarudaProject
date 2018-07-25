@@ -9,7 +9,7 @@ public class scoreS : MonoBehaviour {
     //public Transform scoreCoba;
     public Transform SkorTersimpan;
 
-    public static int nilai = 2000;
+    public static int nilai = 0;
     public static int SavedScore;
     public string soal;
 
