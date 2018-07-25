@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -421,11 +421,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0ca9d98eaebc544291ecb35bc44e7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unlockBonus:
-  - {fileID: 2104620858}
-  - {fileID: 1009385035}
-  - {fileID: 1504951062}
   Text: {fileID: 286011257}
+  hidup1: {fileID: 2104620859}
+  hidup2: {fileID: 1009385036}
+  hidup3: {fileID: 1504951066}
 --- !u!114 &127295420
 MonoBehaviour:
   m_ObjectHideFlags: 0
