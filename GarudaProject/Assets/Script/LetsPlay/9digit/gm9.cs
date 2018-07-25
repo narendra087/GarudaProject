@@ -21,7 +21,7 @@ public class gm9 : MonoBehaviour
     public RectTransform lett8;
     public RectTransform lett9;
 
-    public string soal;
+    public static string soal;
 
     public static List<string> selectLetter = new List<string>() { "", "", "", "", "", "", "", "", "" };
     public static int letterNum = 0;

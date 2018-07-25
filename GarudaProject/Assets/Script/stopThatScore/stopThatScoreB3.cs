@@ -11,12 +11,13 @@ public class stopThatScoreB3 : MonoBehaviour {
 
         FindObjectOfType<scoreS>().start();
 
+
     }
 
     // Update is called once per frame
     public void Update () {
-
-            if (scoreAttemp == true)
+        GetComponent<scoreS>().ScoreOn();
+        if (scoreAttemp == true)
             {
             if (Timer.timeLeft >= 0)
             {
