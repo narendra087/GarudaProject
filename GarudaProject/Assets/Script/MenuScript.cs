@@ -18,8 +18,8 @@ public class MenuScript : MonoBehaviour {
 
     IEnumerator Fade()
     {
-    	Anim.SetBool("Fade", true);
-    	yield return new WaitUntil(()=>Img.color.a==1);
-    	SceneManager.LoadScene(sceneName); 
+        Anim.SetBool("Fade", true);
+        yield return new WaitUntil(() => Img.color.a == 1);
+        SceneManager.LoadScene(sceneName);
     }
 }
