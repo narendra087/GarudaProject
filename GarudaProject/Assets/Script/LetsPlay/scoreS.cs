@@ -91,9 +91,30 @@ public class scoreS : MonoBehaviour {
 
     public void minNilai()
     {
-        nilai = nilai - 5;
-        Social.ReportScore(nilai, "CgkIoIG63tweEAIQCw", (bool success) => {
-        });
+    	gm4.currentWord = "";
+        gm4.count = 0;
+        gm5.currentWord = "";
+        gm5.count = 0;
+        gm6.currentWord = "";
+       	gm6.count = 0;
+        gm7.currentWord = "";
+        gm7.count = 0;
+        gm8.currentWord = "";
+        gm8.count = 0;
+        gm9.currentWord = "";
+        gm9.count = 0;
+        gm10.currentWord = "";
+        gm10.count = 0;
+        gm11.currentWord = "";
+        gm11.count = 0;
+        gm14.currentWord = "";
+        gm14.count = 0;
+    	if (popUp4.game == 1 || popUp5.game == 1 || popUp6.game == 1 || popUp7.game == 1 || popUp8.game == 1 || popUp9.game == 1 || popUp10.game == 1 || popUp11.game == 1 || popUp14.game == 1)
+        {
+        	nilai = nilai - 5;
+        	Social.ReportScore(nilai, "CgkIoIG63tweEAIQCw", (bool success) => {
+        	});
+    	}
     }
 
     public void SaveScore()
