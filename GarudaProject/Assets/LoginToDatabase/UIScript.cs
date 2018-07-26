@@ -94,4 +94,6 @@ public class UIScript : MonoBehaviour
     {
         pointsTxt.text = ManagerScript.Counter.ToString();
     }
-}
+
+
+   }

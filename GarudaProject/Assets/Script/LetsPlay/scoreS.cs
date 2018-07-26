@@ -11,7 +11,7 @@ public class scoreS : MonoBehaviour {
     //public Transform scoreCoba;
     public Transform SkorTersimpan;
 
-    public static int nilai = 0;
+    public static int nilai;
     public static int SavedScore;
     public string soal;
 
@@ -25,9 +25,10 @@ public class scoreS : MonoBehaviour {
 
     // Use this for initialization
     public void start () {
+        //nilai = MenuScript.nilaiSimpanan;
         sudah = false;
-        LoadScore();
-        SkorTersimpan.GetComponent<TMPro.TextMeshProUGUI>().text = SavedScore.ToString();
+        //LoadScore();
+        //SkorTersimpan.GetComponent<TMPro.TextMeshProUGUI>().text = SavedScore.ToString();
         score.GetComponent<TMPro.TextMeshProUGUI>().text = nilai.ToString();
        // scoreCoba.GetComponent<TMPro.TextMeshProUGUI>().text = scoreAttemp.ToString();
 
@@ -63,18 +64,25 @@ public class scoreS : MonoBehaviour {
                 }
                 if (Timer.timeLeft <= 0)
             {
+<<<<<<< HEAD
+                nilai = nilai - 3;
+                Social.ReportScore(nilai, "CgkIoIG63tweEAIQCw", (bool success) => {
+                });
+=======
                 nilai = nilai - 5;
 
                 //if (stopThatScoreB3.Start = true)
                 //{
                 //    nilai = nilai - 1000;
                 //}
+>>>>>>> e25e6b22787bfdb899e155c7711dfe86097e04ba
             }
-            //nilai = nilai - 3;
+
+               // if (MenuScript.ChangeScene() == true)
 
 
 
-        }
+            }
         //nilai = nilai - 1;
         //nilai = nilai + 100 + Timer.timeLeft * 2;
        // nilai = nilai - 3;
