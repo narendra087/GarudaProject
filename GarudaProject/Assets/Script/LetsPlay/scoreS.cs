@@ -64,9 +64,18 @@ public class scoreS : MonoBehaviour {
                 }
                 if (Timer.timeLeft <= 0)
             {
+<<<<<<< HEAD
                 nilai = nilai - 3;
                 Social.ReportScore(nilai, "CgkIoIG63tweEAIQCw", (bool success) => {
                 });
+=======
+                nilai = nilai - 5;
+
+                //if (stopThatScoreB3.Start = true)
+                //{
+                //    nilai = nilai - 1000;
+                //}
+>>>>>>> e25e6b22787bfdb899e155c7711dfe86097e04ba
             }
 
                // if (MenuScript.ChangeScene() == true)
@@ -80,6 +89,12 @@ public class scoreS : MonoBehaviour {
 
 
     }
+
+    public void minNilai()
+    {
+        nilai = nilai - 5;
+    }
+
     public void SaveScore()
     {
         PlayerPrefs.SetInt("Score", nilai);
