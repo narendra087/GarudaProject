@@ -7374,7 +7374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1d1600c082841640bf0548bab47b22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_YourFirstButton: {fileID: 0}
+  m_YourFirstButton: {fileID: 96275245}
 --- !u!102 &2050173698
 TextMesh:
   serializedVersion: 3
