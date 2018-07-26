@@ -22,7 +22,7 @@
 ///
 
 
-public static class GPGSIds
+public static class GarudaGames
 {
         public const string achievement_synergy_master = "CgkIoIG63tweEAIQAQ"; // <GPGSID>
         public const string achievement_gold_player = "CgkIoIG63tweEAIQBw"; // <GPGSID>

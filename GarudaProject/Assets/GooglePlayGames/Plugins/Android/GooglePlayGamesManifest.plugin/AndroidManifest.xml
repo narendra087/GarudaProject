@@ -16,11 +16,7 @@
 
         <!-- The space in these forces it to be interpreted as a string vs. int -->
         <meta-data android:name="com.google.android.gms.games.APP_ID"
-<<<<<<< HEAD
             android:value="\ 1055686295712" />
-=======
-            android:value="\ " />
->>>>>>> a2b10051d21c90d6c0b7aa027fc419037f52c990
 
         <!-- Keep track of which plugin is being used -->
         <meta-data android:name="com.google.android.gms.games.unityVersion"

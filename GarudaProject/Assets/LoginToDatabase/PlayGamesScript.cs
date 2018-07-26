@@ -12,10 +12,10 @@ public class PlayGamesScript : MonoBehaviour
         PlayGamesPlatform.InitializeInstance(config);
         PlayGamesPlatform.Activate();
 
-        
+        SignIn();
     }
 
-    public static void SignIn()
+    void SignIn()
     {
         Social.localUser.Authenticate(success => { });
     }
