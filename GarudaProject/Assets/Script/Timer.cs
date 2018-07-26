@@ -15,7 +15,7 @@ public class Timer : MonoBehaviour
     void Start()
     {
         audioData = GetComponent<AudioSource>();
-        timeLeft = 10;
+        timeLeft = 20;
         StartCoroutine("LoseTime");
     }
 

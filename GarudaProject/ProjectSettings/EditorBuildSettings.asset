@@ -101,17 +101,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LetsPlay/Agility/Agility Level.unity
     guid: 4735515d9a9dcae4288c81c4b7528e42
-  - enabled: 0
-    path: Assets/Scenes/LetsPlay/Bonus/B1.sincerity.unity
-    guid: 82f8f799882feca468e88f033661c8aa
+  - enabled: 1
+    path: Assets/Scenes/LetsPlay/Bonus/B1.WorldClass.unity
+    guid: 059bf346c7a2f524fa282d5109293ace
   - enabled: 1
     path: Assets/Scenes/LetsPlay/Bonus/B2.SkyBeyond.unity
     guid: eff91140c3cbb05429f58b1390310068
-  - enabled: 0
-    path: Assets/Scenes/LetsPlay/Bonus/B3.GarudaAviation.unity
-    guid: 5f40151b4e73b9044a8593f2589306f0
   - enabled: 1
-    path: Assets/Scenes/LetsPlay/Bonus/Bonus Scene.unity
+    path: Assets/Scenes/LetsPlay/Bonus/B3.BestAirline.unity
+    guid: 969b014c0a59f104685ee85fc9afa472
+  - enabled: 1
+    path: Assets/Scenes/LetsPlay/Bonus/Bonus Level.unity
     guid: 4eeb77159dd65004aa3ab96cb527a2bc
   - enabled: 1
     path: Assets/Scenes/Materi Sincerity/Menu Materi Scene.unity
