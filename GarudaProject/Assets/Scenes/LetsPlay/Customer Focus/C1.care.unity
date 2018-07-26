@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1858abb70432f4c9dd44b142beb174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Agility Level
+  sceneName: Customer Level
   Anim: {fileID: 1326996489}
   Img: {fileID: 1326996490}
 --- !u!114 &107786384
@@ -330,6 +330,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 8300000, guid: 8545d44ea5f557f44827fecc824e082a,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 184055061}
+        m_MethodName: minNilai
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1777,8 +1788,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1361618518}
-        m_MethodName: 
+      - m_Target: {fileID: 1361618519}
+        m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: d0c95dafe6fb1514a8740a124af517d8,
@@ -1899,8 +1910,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1361618518}
-        m_MethodName: 
+      - m_Target: {fileID: 1361618519}
+        m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: d0c95dafe6fb1514a8740a124af517d8,
@@ -2021,8 +2032,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1361618518}
-        m_MethodName: 
+      - m_Target: {fileID: 1361618519}
+        m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: d0c95dafe6fb1514a8740a124af517d8,
@@ -2748,7 +2759,7 @@ MonoBehaviour:
   transparan: {fileID: 822410017}
   category: Customer Level
   soal: cares
-  cat: Customer
+  cat: Customer Focus
   lett1: {fileID: 829547858}
   lett2: {fileID: 1808065157}
   lett3: {fileID: 1908027292}
@@ -2858,8 +2869,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1361618518}
-        m_MethodName: 
+      - m_Target: {fileID: 1361618519}
+        m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: d0c95dafe6fb1514a8740a124af517d8,
@@ -3259,8 +3270,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1361618518}
-        m_MethodName: 
+      - m_Target: {fileID: 1361618519}
+        m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: d0c95dafe6fb1514a8740a124af517d8,
@@ -3506,7 +3517,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1014063459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 193566f4163a7f3458038e7dfab75c21, type: 3}
+  m_Script: {fileID: 11500000, guid: 15654485e282ebc4e81110b70e4c0204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreUnlock: 10
@@ -3514,7 +3525,7 @@ MonoBehaviour:
   max_level: 6
   num_level: 
   t: 1
-  sceneload: Agility Level
+  sceneload: Customer Level
   nextLevelScene: num_level
   Anim: {fileID: 1326996489}
   Img: {fileID: 1326996490}
@@ -3626,8 +3637,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1361618518}
-        m_MethodName: 
+      - m_Target: {fileID: 1361618519}
+        m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: d0c95dafe6fb1514a8740a124af517d8,
@@ -3748,8 +3759,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1361618518}
-        m_MethodName: 
+      - m_Target: {fileID: 1361618519}
+        m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: d0c95dafe6fb1514a8740a124af517d8,
@@ -4920,8 +4931,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1361618518}
-        m_MethodName: 
+      - m_Target: {fileID: 1361618519}
+        m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: d0c95dafe6fb1514a8740a124af517d8,
@@ -5234,8 +5245,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1361618518}
-        m_MethodName: 
+      - m_Target: {fileID: 1361618519}
+        m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: d0c95dafe6fb1514a8740a124af517d8,
@@ -6309,8 +6320,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 148.57, y: -51.7}
-  m_SizeDelta: {x: 25.47, y: 20.6}
+  m_AnchoredPosition: {x: 149.3, y: -51.032}
+  m_SizeDelta: {x: 21.28, y: 17.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1853685612
 MonoBehaviour:
@@ -6362,9 +6373,9 @@ MonoBehaviour:
   m_fontSize: 12
   m_fontSizeBase: 12
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 6
+  m_fontSizeMax: 12
   m_fontStyle: 0
   m_textAlignment: 514
   m_isAlignmentEnumConverted: 1

@@ -63,7 +63,7 @@ public class scoreS : MonoBehaviour {
                 }
                 if (Timer.timeLeft <= 0)
             {
-                nilai = nilai - 3;
+                nilai = nilai - 5;
 
                 //if (stopThatScoreB3.Start = true)
                 //{
@@ -81,6 +81,12 @@ public class scoreS : MonoBehaviour {
 
 
     }
+
+    public void minNilai()
+    {
+        nilai = nilai - 5;
+    }
+
     public void SaveScore()
     {
         PlayerPrefs.SetInt("Score", nilai);
