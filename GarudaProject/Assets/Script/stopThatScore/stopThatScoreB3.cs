@@ -5,7 +5,7 @@ using UnityEngine;
 public class stopThatScoreB3 : MonoBehaviour {
 
 
-    private static bool scoreAttemp = true;
+    public static bool scoreAttemp = true;
   
     public void Start () {
 
@@ -25,6 +25,10 @@ public class stopThatScoreB3 : MonoBehaviour {
                 if (scoreS.sudah == true)
                 {
                     scoreAttemp = false;
+                    if (scoreAttemp == false && stopThatScoreA5.scoreAttemp == false && stopThatScoreI5.scoreAttemp == false && stopThatScoreS5.scoreAttemp == false && stopThatScoreC5.scoreAttemp == false && stopThatScoreSa5.scoreAttemp == false)
+                    {
+                        UIScript.Unlock10();
+                    }
                 }
 
             }

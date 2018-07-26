@@ -19,16 +19,19 @@ public class BonusLevel : MonoBehaviour {
 		if (scoreS.nilai >= 1111)
 		{
 			hidup1.gameObject.SetActive(false);
-		}
+            UIScript.Unlock6();
+        }
 
 		if (scoreS.nilai >= 2222)
 		{
 			hidup2.gameObject.SetActive(false);
-		}
+            UIScript.Unlock7();
+        }
 
 		if (scoreS.nilai >= 3333)
 		{
 			hidup3.gameObject.SetActive(false);
-		}
+            UIScript.Unlock8();
+        }
 	}
 }
