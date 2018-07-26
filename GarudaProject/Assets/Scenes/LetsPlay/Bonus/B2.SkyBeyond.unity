@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 22823570}
   - component: {fileID: 22823573}
   - component: {fileID: 22823572}
-  - component: {fileID: 22823571}
   m_Layer: 5
   m_Name: Next_Level
   m_TagString: Untagged
@@ -151,26 +150,6 @@ RectTransform:
   m_AnchoredPosition: {x: 350, y: -675}
   m_SizeDelta: {x: 380.4, y: 374.2}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &22823571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 22823569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67633c7a5b9f1bf419fad5fcdd0e9a11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreUnlock: 10
-  Next_Level: {fileID: 22823569}
-  max_level: 6
-  num_level: 
-  t: 1
-  sceneload: Integrity Level
-  nextLevelScene: num_level
-  Anim: {fileID: 0}
-  Img: {fileID: 0}
 --- !u!114 &22823572
 MonoBehaviour:
   m_ObjectHideFlags: 0
