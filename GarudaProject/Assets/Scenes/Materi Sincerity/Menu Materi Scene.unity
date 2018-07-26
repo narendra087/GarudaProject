@@ -659,8 +659,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Home Scene
-  Anim: {fileID: 0}
-  Img: {fileID: 0}
+  Anim: {fileID: 1598619109}
+  Img: {fileID: 1598619110}
 --- !u!114 &921649393
 MonoBehaviour:
   m_ObjectHideFlags: 0
